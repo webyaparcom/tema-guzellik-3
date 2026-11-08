@@ -1,0 +1,40 @@
+{
+  "id": "11l2pxhybc",
+  "name": {
+    "tr": "Hizmetler",
+    "en": "Services",
+    "ar": "الخدمات"
+  },
+  "description": {
+    "tr": "Saç, tırnak, cilt bakımı, makyaj ve masaj hizmetleri.",
+    "en": "Hair, nail, skin care, make-up and massage services.",
+    "ar": "خدمات الشعر والأظافر والعناية بالبشرة والمكياج والتدليك."
+  },
+  "keyword": {
+    "tr": "hizmetler, saç, tırnak, cilt bakımı",
+    "en": "services, hair, nails, skin care",
+    "ar": "خدمات، شعر، أظافر، عناية بالبشرة"
+  },
+  "path": "hizmetler",
+  "icon": "spa",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "wjflg4",
+      "dc9pfh"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetler",
+    "en": "Services",
+    "ar": "الخدمات"
+  },
+  "date": "2026-10-31T14:44:27.912Z",
+  "update": "2026-11-05T22:24:54.333Z"
+}

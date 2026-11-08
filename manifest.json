@@ -1,0 +1,29 @@
+{
+  "name": "Lila Studio",
+  "short_name": "Lila Studio",
+  "description": "Lila Studio: saç, tırnak, cilt bakımı, makyaj ve masaj; KDV dahil fiyat listesi, uzman ve saat seçmeli online randevu, ön bilgilendirme. Yalnızca estetik amaçlı bakım. (Demo site)",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6D28D9",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

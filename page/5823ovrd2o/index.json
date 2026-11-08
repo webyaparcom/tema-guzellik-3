@@ -1,0 +1,39 @@
+{
+  "id": "5823ovrd2o",
+  "name": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "description": {
+    "tr": "Salondan ve bakım anlarından fotoğraflar (kurgusal).",
+    "en": "Photos from the salon and care moments (fictional).",
+    "ar": "صور من الصالون ولحظات العناية (افتراضية)."
+  },
+  "keyword": {
+    "tr": "galeri, fotoğraf",
+    "en": "gallery, photos",
+    "ar": "معرض، صور"
+  },
+  "path": "galeri",
+  "icon": "photo_library",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "q2oe3f"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "date": "2026-10-31T14:44:27.931Z",
+  "update": "2026-11-05T22:24:54.342Z"
+}

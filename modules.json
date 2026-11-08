@@ -1,0 +1,4639 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "g3db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "g3mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "72px",
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "path": "galeri-masonry",
+      "local": "body",
+      "category": "galeri",
+      "id": "g3gm01",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "0px",
+        "radius": "8px",
+        "columns": {
+          "d": 4,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "المعرض"
+        },
+        "description": {
+          "tr": "Çalışmalarımızdan seçilmiş kareler. Kategoriye göre süzün, büyütmek için dokunun.",
+          "en": "A selection of frames from our work. Filter by category and tap to enlarge.",
+          "ar": "مختارات من أعمالنا. صفِّ حسب الفئة، وانقر على الصورة لتكبيرها."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "mekan",
+            "name": {
+              "tr": "Mekan",
+              "en": "Spaces",
+              "ar": "المساحات"
+            }
+          },
+          {
+            "id": "detay",
+            "name": {
+              "tr": "Detay",
+              "en": "Details",
+              "ar": "التفاصيل"
+            }
+          },
+          {
+            "id": "surec",
+            "name": {
+              "tr": "Süreç",
+              "en": "Process",
+              "ar": "سير العمل"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "data": [
+        {
+          "img": "",
+          "title": {
+            "tr": "Giriş alanı",
+            "en": "Entrance area",
+            "ar": "منطقة المدخل"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Aydınlık giriş alanı",
+            "en": "Bright entrance area",
+            "ar": "منطقة مدخل مضيئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Ana salon",
+            "en": "Main hall",
+            "ar": "القاعة الرئيسية"
+          },
+          "cat": "mekan",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Geniş ana salon",
+            "en": "Spacious main hall",
+            "ar": "قاعة رئيسية واسعة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Malzeme seçimi",
+            "en": "Material selection",
+            "ar": "اختيار المواد"
+          },
+          "cat": "detay",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Yakın çekim doku",
+            "en": "Close-up texture",
+            "ar": "نسيج بلقطة مقرّبة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Aydınlatma",
+            "en": "Lighting",
+            "ar": "الإضاءة"
+          },
+          "cat": "detay",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Sıcak ışıklı detay",
+            "en": "Warm-lit detail",
+            "ar": "تفصيل بإضاءة دافئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Çizim masası",
+            "en": "Drafting table",
+            "ar": "طاولة الرسم"
+          },
+          "cat": "surec",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Çalışma masasında planlar",
+            "en": "Plans on the work table",
+            "ar": "مخططات على طاولة العمل"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Uygulama",
+            "en": "On site",
+            "ar": "التنفيذ"
+          },
+          "cat": "surec",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Uygulama aşaması",
+            "en": "Installation stage",
+            "ar": "مرحلة التنفيذ"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Teslim",
+            "en": "Handover",
+            "ar": "التسليم"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Teslim edilen mekan",
+            "en": "Finished space",
+            "ar": "المساحة بعد التسليم"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Son dokunuşlar",
+            "en": "Finishing touches",
+            "ar": "اللمسات الأخيرة"
+          },
+          "cat": "detay",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Son dokunuş detayı",
+            "en": "Finishing detail",
+            "ar": "تفصيل اللمسات الأخيرة"
+          }
+        }
+      ],
+      "index": 2
+    },
+    {
+      "name": "Fiyatlandırma 1",
+      "path": "pricing-1",
+      "local": "body",
+      "category": "pricing",
+      "id": "g3pr01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "badge": {
+          "tr": "Paketler",
+          "en": "Packages",
+          "ar": "الباقات"
+        },
+        "title": {
+          "tr": "Çekim paketleri",
+          "en": "Shooting packages",
+          "ar": "باقات التصوير"
+        },
+        "description": {
+          "tr": "İhtiyacınıza göre esnek paket seçenekleri. Dilediğiniz zaman yükseltebilirsiniz.",
+          "en": "Flexible plans for your needs. Upgrade anytime.",
+          "ar": "خيارات باقات مرنة حسب احتياجك، ويمكنك الترقية في أي وقت."
+        },
+        "accentText": "#ffffff"
+      },
+      "version": "1.0.0",
+      "icon": "payments",
+      "data": [
+        {
+          "plan": {
+            "tr": "Başlangıç",
+            "en": "Starter",
+            "ar": "البداية"
+          },
+          "price": "₺4.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project",
+            "ar": "/ مشروع"
+          },
+          "note": {
+            "tr": "Küçük işletmeler için",
+            "en": "For small businesses",
+            "ar": "للأعمال الصغيرة"
+          },
+          "features": {
+            "tr": "5 sayfa web sitesi|Mobil uyumlu tasarım|Temel SEO|1 ay destek",
+            "en": "5-page website|Responsive design|Basic SEO|1 month support",
+            "ar": "موقع من 5 صفحات|تصميم متجاوب|تحسين أساسي لمحركات البحث|دعم لمدة شهر"
+          },
+          "ctaText": {
+            "tr": "Hemen Başla",
+            "en": "Get Started",
+            "ar": "ابدأ الآن"
+          },
+          "ctaUrl": "#",
+          "featured": false
+        },
+        {
+          "plan": {
+            "tr": "Profesyonel",
+            "en": "Professional",
+            "ar": "احترافي"
+          },
+          "price": "₺9.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project",
+            "ar": "/ مشروع"
+          },
+          "note": {
+            "tr": "Büyüyen markalar için",
+            "en": "For growing brands",
+            "ar": "للعلامات المتنامية"
+          },
+          "features": {
+            "tr": "15 sayfa web sitesi|Çok dilli altyapı|Gelişmiş SEO|E-ticaret hazır|3 ay destek",
+            "en": "15-page website|Multi-language|Advanced SEO|E-commerce ready|3 months support",
+            "ar": "موقع من 15 صفحة|بنية متعددة اللغات|تحسين متقدم لمحركات البحث|جاهز للتجارة الإلكترونية|دعم لمدة 3 أشهر"
+          },
+          "ctaText": {
+            "tr": "Hemen Başla",
+            "en": "Get Started",
+            "ar": "ابدأ الآن"
+          },
+          "ctaUrl": "#",
+          "featured": true,
+          "flag": {
+            "tr": "En Popüler",
+            "en": "Most Popular",
+            "ar": "الأكثر شيوعًا"
+          }
+        },
+        {
+          "plan": {
+            "tr": "Kurumsal",
+            "en": "Enterprise",
+            "ar": "المؤسسة"
+          },
+          "price": "₺19.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project",
+            "ar": "/ مشروع"
+          },
+          "note": {
+            "tr": "Kurumsal çözümler",
+            "en": "Enterprise solutions",
+            "ar": "حلول المؤسسات"
+          },
+          "features": {
+            "tr": "Sınırsız sayfa|Özel entegrasyonlar|Öncelikli destek|Performans optimizasyonu|12 ay destek",
+            "en": "Unlimited pages|Custom integrations|Priority support|Performance tuning|12 months support",
+            "ar": "صفحات غير محدودة|تكاملات مخصصة|دعم ذو أولوية|تحسين الأداء|دعم لمدة 12 شهرًا"
+          },
+          "ctaText": {
+            "tr": "Teklif Al",
+            "en": "Get a Quote",
+            "ar": "اطلب عرضًا"
+          },
+          "ctaUrl": "#",
+          "featured": false
+        }
+      ],
+      "index": 3
+    },
+    {
+      "name": "CTA Şerit 1",
+      "path": "cta-1",
+      "local": "body",
+      "category": "cta",
+      "id": "g3ca01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "title": {
+          "tr": "Birlikte çalışalım",
+          "en": "Let's work together",
+          "ar": "لنعمل معًا"
+        },
+        "description": {
+          "tr": "Çekim tarihiniz için müsaitlik sorun.",
+          "en": "Ask about availability for your shoot date.",
+          "ar": "اسأل عن التوفر لموعد جلستك."
+        },
+        "btn1Text": {
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز جلسة"
+        },
+        "btn1Url": "iletisim",
+        "btn2Text": {
+          "tr": "Hakkımda",
+          "en": "About me",
+          "ar": "نبذة عني"
+        },
+        "btn2Url": "hakkimizda",
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "campaign",
+      "index": 4
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "g3ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 5
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "g3ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": ""
+        },
+        {
+          "icon": "map",
+          "text": ""
+        }
+      ],
+      "index": 6
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "g3mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 7
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "g3in01",
+      "desing": {
+        "name": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        },
+        "description": {
+          "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
+          "en": "This page is a theme sample; its content is filled in during demo production.",
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "To lead our industry with innovative approaches.",
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver needed solutions quickly and transparently.",
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "المؤسسة"
+        },
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 8
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "path": "galeri-masonry",
+      "local": "body",
+      "category": "galeri",
+      "id": "g3gm02",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "0px",
+        "radius": "8px",
+        "columns": {
+          "d": 4,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "المعرض"
+        },
+        "description": {
+          "tr": "Çalışmalarımızdan seçilmiş kareler. Kategoriye göre süzün, büyütmek için dokunun.",
+          "en": "A selection of frames from our work. Filter by category and tap to enlarge.",
+          "ar": "مختارات من أعمالنا. صفِّ حسب الفئة، وانقر على الصورة لتكبيرها."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "mekan",
+            "name": {
+              "tr": "Mekan",
+              "en": "Spaces",
+              "ar": "المساحات"
+            }
+          },
+          {
+            "id": "detay",
+            "name": {
+              "tr": "Detay",
+              "en": "Details",
+              "ar": "التفاصيل"
+            }
+          },
+          {
+            "id": "surec",
+            "name": {
+              "tr": "Süreç",
+              "en": "Process",
+              "ar": "سير العمل"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "data": [
+        {
+          "img": "",
+          "title": {
+            "tr": "Giriş alanı",
+            "en": "Entrance area",
+            "ar": "منطقة المدخل"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Aydınlık giriş alanı",
+            "en": "Bright entrance area",
+            "ar": "منطقة مدخل مضيئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Ana salon",
+            "en": "Main hall",
+            "ar": "القاعة الرئيسية"
+          },
+          "cat": "mekan",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Geniş ana salon",
+            "en": "Spacious main hall",
+            "ar": "قاعة رئيسية واسعة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Malzeme seçimi",
+            "en": "Material selection",
+            "ar": "اختيار المواد"
+          },
+          "cat": "detay",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Yakın çekim doku",
+            "en": "Close-up texture",
+            "ar": "نسيج بلقطة مقرّبة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Aydınlatma",
+            "en": "Lighting",
+            "ar": "الإضاءة"
+          },
+          "cat": "detay",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Sıcak ışıklı detay",
+            "en": "Warm-lit detail",
+            "ar": "تفصيل بإضاءة دافئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Çizim masası",
+            "en": "Drafting table",
+            "ar": "طاولة الرسم"
+          },
+          "cat": "surec",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Çalışma masasında planlar",
+            "en": "Plans on the work table",
+            "ar": "مخططات على طاولة العمل"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Uygulama",
+            "en": "On site",
+            "ar": "التنفيذ"
+          },
+          "cat": "surec",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Uygulama aşaması",
+            "en": "Installation stage",
+            "ar": "مرحلة التنفيذ"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Teslim",
+            "en": "Handover",
+            "ar": "التسليم"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Teslim edilen mekan",
+            "en": "Finished space",
+            "ar": "المساحة بعد التسليم"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Son dokunuşlar",
+            "en": "Finishing touches",
+            "ar": "اللمسات الأخيرة"
+          },
+          "cat": "detay",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Son dokunuş detayı",
+            "en": "Finishing detail",
+            "ar": "تفصيل اللمسات الأخيرة"
+          }
+        }
+      ],
+      "index": 9
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#guzellik-3",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "id": "p8fnyj",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 10
+    },
+    {
+      "name": {
+        "tr": "Menü 10 — Şeffaf overlay",
+        "en": "Menu 10 — Transparent overlay",
+        "ar": "القائمة 10 — شفافة فوق الهيرو"
+      },
+      "description": {
+        "tr": "Hero'nun üstüne binen şeffaf menü (position:absolute): başlangıçta şeffaf zemin + açık yazı (menutextOverlay) ve altında ince koyu gradient scrim; kaydırınca 300 ms'de katı zemine (menubg/menutext) geçer ve sabitlenir. Sayfada hero yoksa (#content ilk çocuğu data-mx-hero / *-hero değilse) baştan katı ve akışta. Mobil: tam ekran panel. desing.stil: sade | cta-butonlu (sağda vurgulu düğme). Dil seçici {{langbar}}. Üç dil + RTL.",
+        "en": "Transparent menu overlaid on the hero (position:absolute): transparent background + light text (menutextOverlay) with a thin dark gradient scrim underneath; on scroll it switches to a solid background (menubg/menutext) in 300 ms and sticks. Without a hero on the page (#content first child lacks data-mx-hero / *-hero) it starts solid and in flow. Mobile: full-screen panel. desing.stil: sade | cta-butonlu (accent button on the end side). Language switcher {{langbar}}. Three languages + RTL.",
+        "ar": "قائمة شفافة فوق الهيرو (position:absolute): خلفية شفافة ونص فاتح (menutextOverlay) مع تدرّج داكن رفيع أسفلها؛ عند التمرير تتحوّل خلال 300 ms إلى خلفية صلبة (menubg/menutext) وتثبت. إن لم توجد وحدة هيرو في الصفحة (أول عنصر في #content بلا data-mx-hero / *-hero) تبدأ صلبة وضمن التدفق. الجوال: لوحة بملء الشاشة. desing.stil: sade | cta-butonlu (زر بارز في جهة النهاية). محدد اللغة {{langbar}}. ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "layers",
+      "category": "menu",
+      "tags": [
+        "menu",
+        "overlay",
+        "seffaf",
+        "transparent",
+        "hero",
+        "sticky",
+        "ar"
+      ],
+      "desing": {
+        "stil": "sade",
+        "logo": "{{logo}}",
+        "logo_acik": "logo-acik.svg",
+        "logo_h": "44px",
+        "max": "1200px",
+        "showlang": true,
+        "menubg": "var(--mx-site-bg, #ffffff)",
+        "menutext": "var(--mx-site-text, #1b1b1b)",
+        "menutextOverlay": "#ffffff",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "cta": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرضًا"
+        },
+        "cta_url": "iletisim"
+      },
+      "data": [],
+      "id": "9um391",
+      "path": "menu-10",
+      "local": "header",
+      "index": 11
+    },
+    {
+      "name": {
+        "tr": "Slider Ken Burns",
+        "en": "Ken Burns Slider",
+        "ar": "سلايدر كين بيرنز"
+      },
+      "description": {
+        "tr": "Sıfır bağımlılıklı tam genişlik slider (Swiper yok): görsel yavaş yakınlaşma/kayma (CSS keyframes 10 sn, reduced-motion'da kapalı), her slaytta eyebrow + h2 + metin + CTA ve metin giriş animasyonu; nokta + ok navigasyon, klavye ←/→, dokunma kaydırma, otomatik oynatma durdur/başlat düğmesi (hover/odakta duraklar, reduced-motion'da kapalı). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (içerik yarı saydam kartta) | bolunmus (görsel bitiş tarafında, metin düz zeminde). Yükseklik desing.yukseklik (vh, min 420px). Üç dil + RTL.",
+        "en": "Zero-dependency full-width slider (no Swiper): slow image zoom/pan (CSS keyframes 10 s, off under reduced-motion), eyebrow + h2 + text + CTA per slide with text entrance animation; dot + arrow navigation, keyboard ←/→, touch swipe, autoplay pause/play button (pauses on hover/focus, off under reduced-motion). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (content in a translucent card) | bolunmus (image on the end side, text on a solid background). Height desing.yukseklik (vh, min 420px). Three languages + RTL.",
+        "ar": "سلايدر بعرض كامل بدون أي تبعيات (بلا Swiper): تقريب/تحريك بطيء للصورة (CSS keyframes 10 ث، يتوقف عند تقليل الحركة)، في كل شريحة تسمية + h2 + نص + زر مع حركة دخول للنص؛ تنقّل بالنقاط والأسهم، لوحة المفاتيح ←/→، سحب باللمس، زر إيقاف/تشغيل التشغيل التلقائي (يتوقف عند التحويم/التركيز، ومعطّل عند تقليل الحركة). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (المحتوى في بطاقة شبه شفافة) | bolunmus (الصورة في جهة النهاية والنص على خلفية صلبة). الارتفاع desing.yukseklik (vh، الحد الأدنى 420px). ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "slideshow",
+      "category": "slider",
+      "tags": [
+        "slider",
+        "kenburns",
+        "ken-burns",
+        "karusel",
+        "hero",
+        "sifir-bagimlilik",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kart",
+        "yukseklik": 78,
+        "sure": 6000,
+        "otomatik": true,
+        "max": "1200px",
+        "overlay": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 25%, #0b1220)",
+        "overlayText": "#ffffff",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "radius": "20px",
+        "aria_label": {
+          "tr": "Tanıtım slaytları",
+          "en": "Featured slides",
+          "ar": "شرائح تعريفية"
+        },
+        "prev_label": {
+          "tr": "Önceki slayt",
+          "en": "Previous slide",
+          "ar": "الشريحة السابقة"
+        },
+        "next_label": {
+          "tr": "Sonraki slayt",
+          "en": "Next slide",
+          "ar": "الشريحة التالية"
+        },
+        "dot_label": {
+          "tr": "{n}. slayta git",
+          "en": "Go to slide {n}",
+          "ar": "الانتقال إلى الشريحة {n}"
+        },
+        "pause_label": {
+          "tr": "Otomatik oynatmayı durdur",
+          "en": "Pause autoplay",
+          "ar": "إيقاف التشغيل التلقائي"
+        },
+        "play_label": {
+          "tr": "Otomatik oynatmayı başlat",
+          "en": "Start autoplay",
+          "ar": "بدء التشغيل التلقائي"
+        },
+        "slide_label": {
+          "tr": "{i} / {n}",
+          "en": "{i} of {n}",
+          "ar": "{i} من {n}"
+        }
+      },
+      "data": [
+        {
+          "img": "guzellik-hizmet-sac.webp",
+          "alt": {
+            "tr": "Mermer tezgâhta makas ve fırça",
+            "en": "Scissors and brush on a marble counter",
+            "ar": "مقص وفرشاة على طاولة رخامية"
+          },
+          "eyebrow": {
+            "tr": "Güzellik salonu · Gaziantep",
+            "en": "Beauty salon · Gaziantep",
+            "ar": "صالون تجميل · غازي عنتاب"
+          },
+          "title": {
+            "tr": "Rengini bul, ışıltını koru",
+            "en": "Find your colour, keep your glow",
+            "ar": "اعثري على لونك وحافظي على إشراقك"
+          },
+          "text": {
+            "tr": "Saç, tırnak, cilt bakımı, makyaj ve masaj; yalnızca estetik amaçlı bakım. Görseller kurgusaldır.",
+            "en": "Hair, nails, skin care, make-up and massage; cosmetic care only. Images are fictional.",
+            "ar": "شعر وأظافر وعناية بالبشرة ومكياج وتدليك؛ عناية تجميلية فقط. الصور افتراضية."
+          },
+          "cta": {
+            "tr": "Randevu al",
+            "en": "Book now",
+            "ar": "احجزي الآن"
+          },
+          "url": "online-randevu"
+        },
+        {
+          "img": "guzellik-hizmet-spa.webp",
+          "alt": {
+            "tr": "Gül yaprakları, mum ve banyo tuzu",
+            "en": "Rose petals, a candle and bath salts",
+            "ar": "بتلات ورد وشمعة وأملاح استحمام"
+          },
+          "eyebrow": {
+            "tr": "Spa",
+            "en": "Spa",
+            "ar": "السبا"
+          },
+          "title": {
+            "tr": "Bir saatlik mola",
+            "en": "An hour-long break",
+            "ar": "استراحة لساعة"
+          },
+          "text": {
+            "tr": "Rahatlatıcı ve aromaterapi masajı; hamilelikte uzmanla planlanır.",
+            "en": "Relaxing and aromatherapy massage; planned with the specialist during pregnancy.",
+            "ar": "تدليك استرخاء وعلاج عطري؛ يُخطَّط مع المختصة أثناء الحمل."
+          },
+          "cta": {
+            "tr": "Fiyat listesi",
+            "en": "Price list",
+            "ar": "قائمة الأسعار"
+          },
+          "url": "fiyat-listesi"
+        },
+        {
+          "img": "guzellik-galeri-3.webp",
+          "alt": {
+            "tr": "Pembe mermerde makyaj fırçaları ve palet",
+            "en": "Make-up brushes and palette on pink marble",
+            "ar": "فُرَش مكياج وباليت على رخام وردي"
+          },
+          "eyebrow": {
+            "tr": "Makyaj",
+            "en": "Make-up",
+            "ar": "المكياج"
+          },
+          "title": {
+            "tr": "Özel günler için prova dahil",
+            "en": "Trial included for special days",
+            "ar": "تشمل التجربة للمناسبات الخاصة"
+          },
+          "text": {
+            "tr": "Gündüz, davet ve gelin makyajı; hipoalerjenik seçenek sorulabilir.",
+            "en": "Day, event and bridal make-up; a hypoallergenic option is available on request.",
+            "ar": "مكياج نهاري ومناسبات وعروس؛ يتوفر خيار مضاد للحساسية عند الطلب."
+          },
+          "cta": {
+            "tr": "Ön bilgilendirme",
+            "en": "Pre-visit information",
+            "ar": "معلومات قبل الزيارة"
+          },
+          "url": "on-bilgilendirme"
+        }
+      ],
+      "id": "z4u1lt",
+      "path": "slider-kenburns",
+      "local": "header",
+      "index": 12
+    },
+    {
+      "name": "Zigzag Özellik",
+      "description": "Görsel-metin sırası satır satır değişen (sol/sağ) özellik anlatımı: numara rozeti, h3, paragraf, mini CTA; görsel kenarında dekoratif çerçeve/gölge. Kaydırmada satırlar sırayla belirir (IntersectionObserver; reduced-motion ya da JS yoksa hep görünür). desing.stil: cerceve | yuzen | sade. RTL'de sıra kendiliğinden aynalanır. Veri: data[] = [{baslik{tr,en,ar}, metin{}, img, alt{}, url, ctaLabel{}?}]. Renkler yalnız token; koyu mod otomatik.",
+      "version": "1.0.0",
+      "icon": "view_agenda",
+      "category": "ozellik",
+      "tags": [
+        "özellik",
+        "zigzag",
+        "features",
+        "görsel-metin",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yuzen",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "20px",
+        "numara": true,
+        "eyebrow": {
+          "tr": "Neden Lila?",
+          "en": "Why Lila?",
+          "ar": "لماذا ليلا؟"
+        },
+        "title": {
+          "tr": "Üç söz",
+          "en": "Three promises",
+          "ar": "ثلاثة وعود"
+        },
+        "description": {
+          "tr": "Hijyen, açık fiyat ve ön bilgilendirme.",
+          "en": "Hygiene, clear prices and pre-visit information.",
+          "ar": "النظافة والأسعار الواضحة ومعلومات قبل الزيارة."
+        },
+        "ctaLabel": {
+          "tr": "Ayrıntı",
+          "en": "Details",
+          "ar": "التفاصيل"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Her müşteriden sonra sterilizasyon",
+            "en": "Sterilisation after every guest",
+            "ar": "تعقيم بعد كل زائرة"
+          },
+          "metin": {
+            "tr": "Aletler temizlenip sterilize edilir; törpü ve tek kullanımlık malzemeler her misafire özeldir.",
+            "en": "Tools are cleaned and sterilised; files and single-use items are unique to each guest.",
+            "ar": "تُنظَّف الأدوات وتُعقَّم؛ والمبارد والمواد ذات الاستعمال الواحد خاصة بكل زائرة."
+          },
+          "img": "guzellik-hizmet-tirnak.webp",
+          "alt": {
+            "tr": "Tırnak bakımı araçları",
+            "en": "Nail care tools",
+            "ar": "أدوات العناية بالأظافر"
+          },
+          "url": "on-bilgilendirme"
+        },
+        {
+          "baslik": {
+            "tr": "KDV dahil, nihai fiyat",
+            "en": "Final prices including VAT",
+            "ar": "أسعار نهائية شاملة الضريبة"
+          },
+          "metin": {
+            "tr": "Fiyat listesinde gördüğünüz tutar ödeyeceğiniz tutardır; saç boyuna bağlı farklar danışmada söylenir.",
+            "en": "The amount on the price list is what you pay; differences due to hair length are explained at consultation.",
+            "ar": "المبلغ في قائمة الأسعار هو ما تدفعينه؛ وتُوضَّح الفروق المرتبطة بطول الشعر أثناء الاستشارة."
+          },
+          "img": "guzellik-hizmet-sac.webp",
+          "alt": {
+            "tr": "Saç araçları",
+            "en": "Hair tools",
+            "ar": "أدوات الشعر"
+          },
+          "url": "fiyat-listesi"
+        },
+        {
+          "baslik": {
+            "tr": "Randevudan önce bilgilendirme",
+            "en": "Information before your appointment",
+            "ar": "معلومات قبل موعدك"
+          },
+          "metin": {
+            "tr": "Alerji, cilt testi, hamilelik ve yaş sınırı maddeleri herkese açık; yalnızca estetik amaçlı bakım yapılır.",
+            "en": "Allergy, patch test, pregnancy and age-limit notes are public; cosmetic care only.",
+            "ar": "بنود الحساسية واختبار البشرة والحمل والحد الأدنى للعمر متاحة للجميع؛ عناية تجميلية فقط."
+          },
+          "img": "guzellik-hizmet-cilt.webp",
+          "alt": {
+            "tr": "Cilt bakım ürünleri",
+            "en": "Skin care products",
+            "ar": "منتجات العناية بالبشرة"
+          },
+          "url": "on-bilgilendirme"
+        }
+      ],
+      "id": "0lsbev",
+      "path": "ozellik-zigzag",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "desing": {
+        "stil": "kartli",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #1e3046 0%, #2a4560 100%)",
+        "numbercolor": "#DE6D26",
+        "labelcolor": "#e2e8f0",
+        "iconsize": "56px",
+        "iconbox": "88px"
+      },
+      "data": [
+        {
+          "number": 7,
+          "suffix": "",
+          "label": {
+            "tr": "Yıllık deneyim",
+            "en": "Years of experience",
+            "ar": "سنوات من الخبرة"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 3,
+          "suffix": "",
+          "label": {
+            "tr": "Uzman",
+            "en": "Specialists",
+            "ar": "مختصات"
+          },
+          "icon": "groups"
+        },
+        {
+          "number": 5,
+          "suffix": "",
+          "label": {
+            "tr": "Hizmet grubu",
+            "en": "Service groups",
+            "ar": "مجموعات خدمات"
+          },
+          "icon": "category"
+        },
+        {
+          "number": 24,
+          "suffix": " sa",
+          "label": {
+            "tr": "Ücretsiz iptal süresi",
+            "en": "Free cancellation window",
+            "ar": "مهلة الإلغاء المجاني"
+          },
+          "icon": "event_busy"
+        }
+      ],
+      "category": "stats",
+      "description": "İstatistik / sayaç bandı modülü. Rakamlar görünür olduğunda 0'dan hedefe animasyonlu sayar (IntersectionObserver + easeOutCubic; prefers-reduced-motion'da animasyonsuz). İkon, sonek (+, /7) ve çok dilli etiket destekler. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient bant, numbercolor/labelcolor, bugünkü görünüm) · \"kartli\" (sayfa zemininde yüzey kartları, üstte primary çizgi, hover'da yükselir) · \"serit-renkli\" (tek renk primary/primary-contrast şeridi, ikon solda rakam+etiket yanında, dikey ayraçlar). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.1.0",
+      "icon": "monitoring",
+      "id": "evdlnd",
+      "path": "stats-1",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": {
+        "tr": "Yorum Karuseli 3",
+        "en": "Testimonial Carousel 3",
+        "ar": "شريط آراء العملاء 3"
+      },
+      "description": {
+        "tr": "Müşteri yorumları karuseli: yıldız + alıntı + kişi (avatar ya da baş harf, ad, unvan/şirket, isteğe bağlı logo). Otomatik kaydırma (durdur/başlat düğmesi, hover ve odakta durur, reduced-motion'da kapalı), nokta + ok, klavye (←/→), swipe (pointer). Bağımlılık yok. Üç varyant (desing.stil): kart-karusel · buyuk-alinti (tek, ortalı) · masonry (3 sütun statik duvar). Üç dil, RTL, koyu mod token'larla.",
+        "en": "Customer testimonial carousel: stars + quote + person (avatar or initials, name, role/company, optional logo). Autoplay (pause/play button, pauses on hover and focus, off under reduced-motion), dots + arrows, keyboard (←/→), swipe (pointer events). No dependencies. Three variants (desing.stil): kart-karusel · buyuk-alinti (single, centred) · masonry (static 3-column wall). Three languages, RTL, dark mode via tokens.",
+        "ar": "شريط آراء العملاء: نجوم + اقتباس + شخص (صورة أو أحرف أولى، الاسم، المسمّى/الشركة، شعار اختياري). تشغيل تلقائي (زر إيقاف/تشغيل، يتوقف عند التمرير والتركيز، معطّل عند تقليل الحركة)، نقاط وأسهم، لوحة مفاتيح، سحب. ثلاثة أنماط، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "format_quote",
+      "category": "testimonial",
+      "tags": [
+        "yorum",
+        "testimonial",
+        "karusel",
+        "referans",
+        "review",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "kart-karusel",
+        "autoplay": true,
+        "interval": 5000,
+        "bgcolor": "var(--mx-site-surface, #f6f6f4)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 70%, var(--mx-site-surface, #f6f6f4))",
+        "cardbg": "var(--mx-site-bg, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "starcolor": "color-mix(in srgb, var(--mx-color-warning, #d97706) 65%, var(--mx-site-text, #1b1b1b))",
+        "radius": "20px",
+        "title": {
+          "tr": "Misafirlerimiz ne diyor?",
+          "en": "What our guests say",
+          "ar": "ماذا تقول زائراتنا؟"
+        },
+        "description": {
+          "tr": "Kurgusal demo yorumlar.",
+          "en": "Fictional demo reviews.",
+          "ar": "تقييمات تجريبية افتراضية."
+        },
+        "regionLabel": {
+          "tr": "Müşteri yorumları",
+          "en": "Customer testimonials",
+          "ar": "آراء العملاء"
+        },
+        "prevLabel": {
+          "tr": "Önceki yorum",
+          "en": "Previous testimonial",
+          "ar": "الرأي السابق"
+        },
+        "nextLabel": {
+          "tr": "Sonraki yorum",
+          "en": "Next testimonial",
+          "ar": "الرأي التالي"
+        },
+        "pauseLabel": {
+          "tr": "Otomatik kaydırmayı durdur",
+          "en": "Pause autoplay",
+          "ar": "إيقاف التشغيل التلقائي"
+        },
+        "playLabel": {
+          "tr": "Otomatik kaydırmayı başlat",
+          "en": "Start autoplay",
+          "ar": "بدء التشغيل التلقائي"
+        },
+        "dotLabel": {
+          "tr": "{n}. sayfa",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "slideLabel": {
+          "tr": "{i} / {n}",
+          "en": "{i} of {n}",
+          "ar": "{i} من {n}"
+        },
+        "ratingLabel": {
+          "tr": "5 üzerinden {n} yıldız",
+          "en": "{n} out of 5 stars",
+          "ar": "{n} من 5 نجوم"
+        },
+        "quoteLabel": {
+          "tr": "Alıntı",
+          "en": "Quote",
+          "ar": "اقتباس"
+        }
+      },
+      "data": [
+        {
+          "name": "Ece T.",
+          "role": {
+            "tr": "Misafir (demo yorum)",
+            "en": "Guest (demo review)",
+            "ar": "زائرة (تقييم تجريبي)"
+          },
+          "company": "",
+          "rating": 5,
+          "img": "",
+          "logo": "",
+          "text": {
+            "tr": "Online randevu kolaydı; uzmanı ve saati kendim seçtim. Salon çok temiz.",
+            "en": "Online booking was easy; I chose the specialist and time myself. The salon is spotless.",
+            "ar": "كان الحجز عبر الإنترنت سهلًا، واخترت المختصة والوقت بنفسي. الصالون نظيف جدًا."
+          }
+        },
+        {
+          "name": "Naz A.",
+          "role": {
+            "tr": "Misafir (demo yorum)",
+            "en": "Guest (demo review)",
+            "ar": "زائرة (تقييم تجريبي)"
+          },
+          "company": "",
+          "rating": 5,
+          "img": "",
+          "logo": "",
+          "text": {
+            "tr": "Alerjimi önceden yazınca ürünleri ona göre seçtiler; ön bilgilendirme sayfası çok iyi.",
+            "en": "When I noted my allergy they chose products accordingly; the pre-visit page is very good.",
+            "ar": "عندما ذكرتُ حساسيتي اختاروا المنتجات وفقًا لها؛ صفحة معلومات قبل الزيارة ممتازة."
+          }
+        },
+        {
+          "name": "Pelin K.",
+          "role": {
+            "tr": "Misafir (demo yorum)",
+            "en": "Guest (demo review)",
+            "ar": "زائرة (تقييم تجريبي)"
+          },
+          "company": "",
+          "rating": 4,
+          "img": "",
+          "logo": "",
+          "text": {
+            "tr": "Fiyat listesi açık ve nihai; jel tırnak uzun süre dayandı.",
+            "en": "The price list is clear and final; my gel nails lasted long.",
+            "ar": "قائمة الأسعار واضحة ونهائية، ودامت أظافر الجل طويلًا."
+          }
+        }
+      ],
+      "id": "nbrkrv",
+      "path": "testimonial-3",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": {
+        "tr": "Hızlı İletişim Kartları",
+        "en": "Quick Contact Cards",
+        "ar": "بطاقات الاتصال السريع"
+      },
+      "description": {
+        "tr": "3–4 hızlı eylem kartı: Ara (tel:), WhatsApp (wa.me hazır mesaj), E-posta (mailto:), Yol tarifi (harita bağlantısı). Her kart ikon + başlık + değer + eylem düğmesi; hover'da yükselir. Veri boş olan kart basılmaz; phone/email boşsa setting'den. Üç varyant (desing.stil): kartli · ikon-serit · dikey-liste. Üç dil, RTL, koyu mod token'larla.",
+        "en": "3–4 quick action cards: Call (tel:), WhatsApp (wa.me prefilled), E-mail (mailto:), Directions (map link). Each card has icon + title + value + action button; lifts on hover. Cards without data are omitted; phone/email fall back to setting. Three variants (desing.stil): kartli · ikon-serit · dikey-liste. Three languages, RTL, dark mode via tokens.",
+        "ar": "3–4 بطاقات إجراء سريع: اتصال (tel:)، واتساب (رسالة جاهزة)، بريد إلكتروني (mailto:)، الاتجاهات (رابط خريطة). كل بطاقة: أيقونة + عنوان + قيمة + زر. البطاقات بلا بيانات لا تُعرض. ثلاثة أنماط، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "contact_phone",
+      "category": "contact",
+      "tags": [
+        "iletisim",
+        "contact",
+        "whatsapp",
+        "telefon",
+        "harita",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "kartli",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "radius": "20px",
+        "title": {
+          "tr": "Hemen ulaşın",
+          "en": "Reach us now",
+          "ar": "تواصلي الآن"
+        },
+        "description": {
+          "tr": "Pzt–Cmt 10:00 – 20:00",
+          "en": "Mon–Sat 10:00 – 20:00",
+          "ar": "الاثنين–السبت 10:00 – 20:00"
+        },
+        "phone": "+90 342 000 00 00",
+        "whatsapp": "903420000000",
+        "email": "merhaba@lilastudio.example",
+        "address": {
+          "tr": "Ordu Caddesi No: 5, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "5 Ordu Avenue, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع أوردو رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "mapsUrl": "",
+        "waMessage": {
+          "tr": "Merhaba, Lila Studio için randevu almak istiyorum.",
+          "en": "Hello, I would like to book an appointment at Lila Studio.",
+          "ar": "مرحبًا، أودّ حجز موعد في ليلا ستوديو."
+        },
+        "callTitle": {
+          "tr": "Bizi Arayın",
+          "en": "Call Us",
+          "ar": "اتصل بنا"
+        },
+        "callText": {
+          "tr": "Hafta içi 09:00 – 18:00",
+          "en": "Weekdays 09:00 – 18:00",
+          "ar": "أيام الأسبوع 09:00 – 18:00"
+        },
+        "callBtn": {
+          "tr": "Ara",
+          "en": "Call",
+          "ar": "اتصال"
+        },
+        "waTitle": {
+          "tr": "WhatsApp",
+          "en": "WhatsApp",
+          "ar": "واتساب"
+        },
+        "waText": {
+          "tr": "Hızlı yanıt için yazın",
+          "en": "Message us for a quick reply",
+          "ar": "راسلنا للحصول على رد سريع"
+        },
+        "waBtn": {
+          "tr": "Mesaj gönder",
+          "en": "Send message",
+          "ar": "إرسال رسالة"
+        },
+        "mailTitle": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "mailText": {
+          "tr": "Teklif ve detaylı sorular için",
+          "en": "For quotes and detailed questions",
+          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+        },
+        "mailBtn": {
+          "tr": "E-posta gönder",
+          "en": "Send e-mail",
+          "ar": "إرسال بريد"
+        },
+        "mapTitle": {
+          "tr": "Yol Tarifi",
+          "en": "Directions",
+          "ar": "الاتجاهات"
+        },
+        "mapBtn": {
+          "tr": "Haritada aç",
+          "en": "Open in maps",
+          "ar": "فتح في الخرائط"
+        },
+        "groupLabel": {
+          "tr": "Hızlı iletişim kanalları",
+          "en": "Quick contact channels",
+          "ar": "قنوات الاتصال السريع"
+        }
+      },
+      "data": [],
+      "id": "l7nq8p",
+      "path": "iletisim-kartlari",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "CTA Şerit 1",
+      "desing": {
+        "stil": "gradient",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #1e3046 0%, #2a4560 100%)",
+        "btnbg": "#ffffff",
+        "btncolor": "#0B3A6E",
+        "title": {
+          "tr": "Hazırsanız randevunuzu alın",
+          "en": "Ready? Book your appointment",
+          "ar": "جاهزة؟ احجزي موعدك"
+        },
+        "description": {
+          "tr": "Ön bilgilendirmeyi okuduysanız birkaç adımda randevu oluşturabilirsiniz.",
+          "en": "Once you have read the pre-visit information, you can book in a few steps.",
+          "ar": "بعد قراءة معلومات قبل الزيارة يمكنك الحجز في خطوات قليلة."
+        },
+        "btn1Text": {
+          "tr": "Randevu al",
+          "en": "Book now",
+          "ar": "احجزي الآن"
+        },
+        "btn1Url": "online-randevu",
+        "btn2Text": {
+          "tr": "Fiyat listesi",
+          "en": "Price list",
+          "ar": "قائمة الأسعار"
+        },
+        "btn2Url": "fiyat-listesi"
+      },
+      "category": "cta",
+      "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient anahtarı tam genişlik bant, bugünkü görünüm) · \"gradient\" (token gradient primary→koyu, yuvarlak köşeli iç bant, ortalı yığın, ışık daireleri, hap düğmeler) · \"kart-yuzen\" (sayfa zemininde yüzen yüzey kartı, dekoratif primary daireler, sol vurgu çizgisi). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.2.0",
+      "icon": "campaign",
+      "id": "dc9pfh",
+      "path": "cta-1",
+      "local": "body",
+      "data": [],
+      "index": 17
+    },
+    {
+      "name": "Sekmeli Hizmetler",
+      "description": "Hizmet anlatımı sekmelerle: sol/üst sekme listesi (ikon + ad), seçili hizmetin görseli + açıklama + madde listesi + CTA. Mobilde akordeon. ARIA tabs kalıbı (ok tuşları, Home/End, RTL'de yön ters). desing.stil: dikey | yatay-ust | kart-gecis. Veri: data[] = [{ikon, ad{tr,en,ar}, ozet{}, maddeler[{}], img, alt{}, url}]. Renkler yalnız token (var(--mx-site-*)); koyu mod otomatik. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "view_sidebar",
+      "category": "hizmet",
+      "tags": [
+        "hizmet",
+        "sekme",
+        "tabs",
+        "akordeon",
+        "services",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kart-gecis",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "20px",
+        "eyebrow": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
+        },
+        "title": {
+          "tr": "Beş alan",
+          "en": "Five areas",
+          "ar": "خمسة مجالات"
+        },
+        "description": {
+          "tr": "Yalnızca estetik amaçlı bakım; tıbbi işlem yapılmaz.",
+          "en": "Cosmetic care only; no medical procedures.",
+          "ar": "عناية تجميلية فقط؛ لا تُجرى إجراءات طبية."
+        },
+        "ctaLabel": {
+          "tr": "Fiyatları gör",
+          "en": "See prices",
+          "ar": "اطّلعي على الأسعار"
+        },
+        "tabsLabel": {
+          "tr": "Hizmet sekmeleri",
+          "en": "Service tabs",
+          "ar": "تبويبات الخدمات"
+        },
+        "featuresLabel": {
+          "tr": "Neler dahil?",
+          "en": "What is included?",
+          "ar": "ماذا يشمل؟"
+        }
+      },
+      "data": [
+        {
+          "ikon": "content_cut",
+          "ad": {
+            "tr": "Saç",
+            "en": "Hair",
+            "ar": "الشعر"
+          },
+          "ozet": {
+            "tr": "Kesim, fön, renk ve röfle; saç tipinize göre.",
+            "en": "Cut, blow-dry, colour and highlights, for your hair type.",
+            "ar": "قص وتجفيف وصبغ وهايلايت حسب نوع شعرك."
+          },
+          "maddeler": [
+            {
+              "tr": "Kesim ve fön",
+              "en": "Cut and blow-dry",
+              "ar": "قص وتجفيف"
+            },
+            {
+              "tr": "Boya ve röfle",
+              "en": "Colour and highlights",
+              "ar": "صبغ وهايلايت"
+            }
+          ],
+          "img": "guzellik-hizmet-sac.webp",
+          "alt": {
+            "tr": "Mermer tezgâhta makas ve fırça",
+            "en": "Scissors and brush on a marble counter",
+            "ar": "مقص وفرشاة على طاولة رخامية"
+          },
+          "url": "fiyat-listesi"
+        },
+        {
+          "ikon": "back_hand",
+          "ad": {
+            "tr": "Tırnak",
+            "en": "Nails",
+            "ar": "الأظافر"
+          },
+          "ozet": {
+            "tr": "Manikür, pedikür ve jel tırnak; sterilize aletlerle.",
+            "en": "Manicure, pedicure and gel nails, with sterilised tools.",
+            "ar": "مانيكير وباديكير وأظافر جل بأدوات معقّمة."
+          },
+          "maddeler": [
+            {
+              "tr": "Manikür ve pedikür",
+              "en": "Manicure and pedicure",
+              "ar": "مانيكير وباديكير"
+            },
+            {
+              "tr": "Jel tırnak",
+              "en": "Gel nails",
+              "ar": "أظافر جل"
+            }
+          ],
+          "img": "guzellik-hizmet-tirnak.webp",
+          "alt": {
+            "tr": "Tırnak bakımı araçları",
+            "en": "Nail care tools",
+            "ar": "أدوات العناية بالأظافر"
+          },
+          "url": "fiyat-listesi"
+        },
+        {
+          "ikon": "spa",
+          "ad": {
+            "tr": "Cilt bakımı",
+            "en": "Skin care",
+            "ar": "العناية بالبشرة"
+          },
+          "ozet": {
+            "tr": "Temizlik, peeling, maske ve nemlendirme; yalnızca estetik amaçlı, tıbbi işlem yok.",
+            "en": "Cleansing, exfoliation, mask and moisturising; cosmetic only, no medical procedures.",
+            "ar": "تنظيف وتقشير وقناع وترطيب؛ تجميلي فقط دون إجراءات طبية."
+          },
+          "maddeler": [
+            {
+              "tr": "Klasik cilt bakımı",
+              "en": "Classic facial",
+              "ar": "عناية كلاسيكية"
+            },
+            {
+              "tr": "Nem maskesi",
+              "en": "Hydrating mask",
+              "ar": "قناع ترطيب"
+            }
+          ],
+          "img": "guzellik-hizmet-cilt.webp",
+          "alt": {
+            "tr": "Cilt bakım ürünleri",
+            "en": "Skin care products",
+            "ar": "منتجات العناية بالبشرة"
+          },
+          "url": "fiyat-listesi"
+        },
+        {
+          "ikon": "brush",
+          "ad": {
+            "tr": "Makyaj",
+            "en": "Make-up",
+            "ar": "المكياج"
+          },
+          "ozet": {
+            "tr": "Gündüz ve gelin makyajı; prova dahil.",
+            "en": "Day and bridal make-up; trial included.",
+            "ar": "مكياج نهاري ومكياج عروس مع التجربة."
+          },
+          "maddeler": [
+            {
+              "tr": "Gündüz makyajı",
+              "en": "Day make-up",
+              "ar": "مكياج نهاري"
+            },
+            {
+              "tr": "Gelin paketi",
+              "en": "Bridal package",
+              "ar": "باقة العروس"
+            }
+          ],
+          "img": "guzellik-galeri-3.webp",
+          "alt": {
+            "tr": "Makyaj fırçaları ve palet",
+            "en": "Make-up brushes and palette",
+            "ar": "فُرَش مكياج وباليت"
+          },
+          "url": "fiyat-listesi"
+        },
+        {
+          "ikon": "self_improvement",
+          "ad": {
+            "tr": "Masaj ve spa",
+            "en": "Massage and spa",
+            "ar": "التدليك والسبا"
+          },
+          "ozet": {
+            "tr": "Rahatlatıcı ve aromaterapi masajı; gül ve mum ritüelleri.",
+            "en": "Relaxing and aromatherapy massage; rose and candle rituals.",
+            "ar": "تدليك استرخاء وعلاج عطري مع طقوس الورد والشموع."
+          },
+          "maddeler": [
+            {
+              "tr": "Rahatlatıcı masaj",
+              "en": "Relaxing massage",
+              "ar": "تدليك استرخاء"
+            },
+            {
+              "tr": "Aromaterapi",
+              "en": "Aromatherapy",
+              "ar": "علاج عطري"
+            }
+          ],
+          "img": "guzellik-hizmet-masaj.webp",
+          "alt": {
+            "tr": "Mumlar ve havlularla masaj odası",
+            "en": "Massage room with candles and towels",
+            "ar": "غرفة تدليك بالشموع والمناشف"
+          },
+          "url": "fiyat-listesi"
+        }
+      ],
+      "id": "wjflg4",
+      "path": "hizmet-sekmeli",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "Menü / Fiyat Listesi",
+      "description": "Kategorili menü ve hizmet fiyat listesi (30 Eki 2026). Menü kipi: 14 alerjen (AB 1169/2011) ikon + kısaltma rozeti, alerjen rehberi tablosu, alerjene göre hariç tutma filtresi (MxFiltre), etiketler, kategori sekmeleri (RTL ok tuşu), arama, yazdırma/QR menü düzeni. Fiyat kipi: süre + fiyat satırı. Üç dil (tr/en/ar).",
+      "version": "1.0.0",
+      "icon": "restaurant_menu",
+      "category": "menu",
+      "tags": [
+        "menu",
+        "fiyat-listesi",
+        "alerjen",
+        "qr-menu"
+      ],
+      "desing": {
+        "max": "980px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "stickyTop": "0px",
+        "mode": "fiyat",
+        "currency": "₺",
+        "showAllergens": false,
+        "allergenLegend": false,
+        "print": true,
+        "filter": false,
+        "search": true,
+        "allTab": true,
+        "filterTags": [
+          "vegan",
+          "vegetarian"
+        ],
+        "badge": {
+          "tr": "Fiyat listesi",
+          "en": "Price list",
+          "ar": "قائمة الأسعار"
+        },
+        "title": {
+          "tr": "Hizmet ve fiyat listesi",
+          "en": "Services and prices",
+          "ar": "قائمة الخدمات والأسعار"
+        },
+        "description": {
+          "tr": "Süre ve fiyat bilgileri güncel nihai fiyatlardır. Yalnızca estetik amaçlı bakım hizmetleri sunulur.",
+          "en": "Durations and prices below are current final prices. We offer cosmetic care services only.",
+          "ar": "المدد والأسعار التالية هي الأسعار النهائية الحالية. نقدّم خدمات عناية تجميلية فقط."
+        },
+        "priceNote": {
+          "tr": "Tüm fiyatlar KDV dahil nihai fiyatlardır.",
+          "en": "All prices are final prices including VAT.",
+          "ar": "جميع الأسعار نهائية وتشمل ضريبة القيمة المضافة."
+        },
+        "legalNote": {
+          "tr": "Fiyatlar saç boyu ve yoğunluğuna göre değişebilir; kesin fiyat danışma sırasında belirlenir.",
+          "en": "Prices may vary with hair length and density; the exact price is confirmed at consultation.",
+          "ar": "قد تختلف الأسعار حسب طول الشعر وكثافته؛ يُحدَّد السعر النهائي أثناء الاستشارة."
+        },
+        "tagLabels": {
+          "vegan": {
+            "tr": "Vegan",
+            "en": "Vegan",
+            "ar": "نباتي صرف"
+          },
+          "vegetarian": {
+            "tr": "Vejetaryen",
+            "en": "Vegetarian",
+            "ar": "نباتي"
+          },
+          "spicy": {
+            "tr": "Acı",
+            "en": "Spicy",
+            "ar": "حار"
+          },
+          "new": {
+            "tr": "Yeni",
+            "en": "New",
+            "ar": "جديد"
+          },
+          "chef": {
+            "tr": "Şefin önerisi",
+            "en": "Chef's pick",
+            "ar": "اختيار الشيف"
+          }
+        },
+        "tagIcons": {
+          "vegan": "eco",
+          "vegetarian": "grass",
+          "spicy": "local_fire_department",
+          "new": "new_releases",
+          "chef": "workspace_premium"
+        },
+        "allergens": {
+          "gluten": {
+            "icon": "grain",
+            "code": {
+              "tr": "GLU",
+              "en": "GLU",
+              "ar": "غل"
+            },
+            "name": {
+              "tr": "Gluten içeren tahıllar",
+              "en": "Cereals containing gluten",
+              "ar": "الحبوب المحتوية على الغلوتين"
+            }
+          },
+          "crustaceans": {
+            "icon": "pest_control",
+            "code": {
+              "tr": "KBK",
+              "en": "CRU",
+              "ar": "قش"
+            },
+            "name": {
+              "tr": "Kabuklular",
+              "en": "Crustaceans",
+              "ar": "القشريات"
+            }
+          },
+          "eggs": {
+            "icon": "egg_alt",
+            "code": {
+              "tr": "YMR",
+              "en": "EGG",
+              "ar": "بض"
+            },
+            "name": {
+              "tr": "Yumurta",
+              "en": "Eggs",
+              "ar": "البيض"
+            }
+          },
+          "fish": {
+            "icon": "set_meal",
+            "code": {
+              "tr": "BLK",
+              "en": "FSH",
+              "ar": "سك"
+            },
+            "name": {
+              "tr": "Balık",
+              "en": "Fish",
+              "ar": "السمك"
+            }
+          },
+          "peanuts": {
+            "icon": "eco",
+            "code": {
+              "tr": "FST",
+              "en": "PNT",
+              "ar": "فس"
+            },
+            "name": {
+              "tr": "Yer fıstığı",
+              "en": "Peanuts",
+              "ar": "الفول السوداني"
+            }
+          },
+          "soy": {
+            "icon": "grass",
+            "code": {
+              "tr": "SOY",
+              "en": "SOY",
+              "ar": "صو"
+            },
+            "name": {
+              "tr": "Soya",
+              "en": "Soy",
+              "ar": "الصويا"
+            }
+          },
+          "milk": {
+            "icon": "local_drink",
+            "code": {
+              "tr": "SÜT",
+              "en": "MLK",
+              "ar": "حل"
+            },
+            "name": {
+              "tr": "Süt ve süt ürünleri",
+              "en": "Milk and dairy",
+              "ar": "الحليب ومشتقاته"
+            }
+          },
+          "nuts": {
+            "icon": "forest",
+            "code": {
+              "tr": "SKY",
+              "en": "NUT",
+              "ar": "مك"
+            },
+            "name": {
+              "tr": "Sert kabuklu yemişler",
+              "en": "Tree nuts",
+              "ar": "المكسرات"
+            }
+          },
+          "celery": {
+            "icon": "potted_plant",
+            "code": {
+              "tr": "KRZ",
+              "en": "CEL",
+              "ar": "كر"
+            },
+            "name": {
+              "tr": "Kereviz",
+              "en": "Celery",
+              "ar": "الكرفس"
+            }
+          },
+          "mustard": {
+            "icon": "water_drop",
+            "code": {
+              "tr": "HRD",
+              "en": "MUS",
+              "ar": "خر"
+            },
+            "name": {
+              "tr": "Hardal",
+              "en": "Mustard",
+              "ar": "الخردل"
+            }
+          },
+          "sesame": {
+            "icon": "scatter_plot",
+            "code": {
+              "tr": "SSM",
+              "en": "SES",
+              "ar": "سم"
+            },
+            "name": {
+              "tr": "Susam",
+              "en": "Sesame",
+              "ar": "السمسم"
+            }
+          },
+          "sulphites": {
+            "icon": "science",
+            "code": {
+              "tr": "SO2",
+              "en": "SO2",
+              "ar": "SO2"
+            },
+            "name": {
+              "tr": "Sülfür dioksit ve sülfitler",
+              "en": "Sulphur dioxide and sulphites",
+              "ar": "ثاني أكسيد الكبريت والكبريتيت"
+            }
+          },
+          "lupin": {
+            "icon": "local_florist",
+            "code": {
+              "tr": "ABK",
+              "en": "LUP",
+              "ar": "تر"
+            },
+            "name": {
+              "tr": "Acı bakla",
+              "en": "Lupin",
+              "ar": "الترمس"
+            }
+          },
+          "molluscs": {
+            "icon": "water",
+            "code": {
+              "tr": "YMK",
+              "en": "MOL",
+              "ar": "رخ"
+            },
+            "name": {
+              "tr": "Yumuşakçalar",
+              "en": "Molluscs",
+              "ar": "الرخويات"
+            }
+          }
+        },
+        "categories": [
+          {
+            "id": "sac",
+            "name": {
+              "tr": "Saç",
+              "en": "Hair",
+              "ar": "الشعر"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Saç kesimi",
+                  "en": "Haircut",
+                  "ar": "قص الشعر"
+                },
+                "desc": {
+                  "tr": "Yıkama ve fön dahil.",
+                  "en": "Wash and blow-dry included.",
+                  "ar": "يشمل الغسل والتجفيف."
+                },
+                "price": 500,
+                "duration": 45
+              },
+              {
+                "name": {
+                  "tr": "Fön",
+                  "en": "Blow-dry",
+                  "ar": "تجفيف وتصفيف"
+                },
+                "desc": {
+                  "tr": "Saç tipinize göre şekillendirme.",
+                  "en": "Styled to suit your hair type.",
+                  "ar": "تصفيف يناسب نوع شعرك."
+                },
+                "price": 280,
+                "duration": 30
+              },
+              {
+                "name": {
+                  "tr": "Saç boyama",
+                  "en": "Hair colouring",
+                  "ar": "صبغ الشعر"
+                },
+                "desc": {
+                  "tr": "Köklerden başlayan renk uygulaması.",
+                  "en": "Colour applied from the roots.",
+                  "ar": "صبغة تبدأ من الجذور."
+                },
+                "price": 1300,
+                "duration": 120
+              },
+              {
+                "name": {
+                  "tr": "Röfle",
+                  "en": "Highlights",
+                  "ar": "هايلايت"
+                },
+                "desc": {
+                  "tr": "Doğal geçişli ışıltılı tonlar.",
+                  "en": "Natural-looking, sun-kissed tones.",
+                  "ar": "درجات لامعة بتدرّج طبيعي."
+                },
+                "price": 1900,
+                "duration": 150
+              }
+            ]
+          },
+          {
+            "id": "tirnak",
+            "name": {
+              "tr": "Tırnak",
+              "en": "Nails",
+              "ar": "الأظافر"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Manikür",
+                  "en": "Manicure",
+                  "ar": "مانيكير"
+                },
+                "desc": {
+                  "tr": "Şekillendirme, bakım ve oje.",
+                  "en": "Shaping, care and polish.",
+                  "ar": "تشكيل وعناية وطلاء."
+                },
+                "price": 380,
+                "duration": 40
+              },
+              {
+                "name": {
+                  "tr": "Pedikür",
+                  "en": "Pedicure",
+                  "ar": "باديكير"
+                },
+                "desc": {
+                  "tr": "Ayak bakımı ve oje.",
+                  "en": "Foot care and polish.",
+                  "ar": "عناية بالقدمين وطلاء."
+                },
+                "price": 480,
+                "duration": 50
+              },
+              {
+                "name": {
+                  "tr": "Jel tırnak",
+                  "en": "Gel nails",
+                  "ar": "أظافر الجل"
+                },
+                "desc": {
+                  "tr": "Doğal görünümlü jel uzatma.",
+                  "en": "Natural-looking gel extensions.",
+                  "ar": "إطالة بالجل بمظهر طبيعي."
+                },
+                "price": 750,
+                "duration": 75
+              }
+            ]
+          },
+          {
+            "id": "cilt",
+            "name": {
+              "tr": "Cilt bakımı",
+              "en": "Skin care",
+              "ar": "العناية بالبشرة"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Klasik cilt bakımı",
+                  "en": "Classic facial",
+                  "ar": "عناية كلاسيكية بالبشرة"
+                },
+                "desc": {
+                  "tr": "Temizlik, peeling, maske ve nemlendirme.",
+                  "en": "Cleansing, exfoliation, mask and moisturising.",
+                  "ar": "تنظيف وتقشير وقناع وترطيب."
+                },
+                "price": 980,
+                "duration": 60
+              },
+              {
+                "name": {
+                  "tr": "Nem maskesi",
+                  "en": "Hydrating mask",
+                  "ar": "قناع الترطيب"
+                },
+                "desc": {
+                  "tr": "Yoğun nemlendirici kısa bakım.",
+                  "en": "A short, intensely hydrating treatment.",
+                  "ar": "جلسة قصيرة بترطيب مكثّف."
+                },
+                "price": 640,
+                "duration": 40
+              }
+            ]
+          },
+          {
+            "id": "makyaj",
+            "name": {
+              "tr": "Makyaj",
+              "en": "Make-up",
+              "ar": "المكياج"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Gündüz makyajı",
+                  "en": "Day make-up",
+                  "ar": "مكياج نهاري"
+                },
+                "desc": {
+                  "tr": "Doğal ve hafif görünüm.",
+                  "en": "A natural, light look.",
+                  "ar": "إطلالة طبيعية وخفيفة."
+                },
+                "price": 750,
+                "duration": 45
+              },
+              {
+                "name": {
+                  "tr": "Gelin makyajı",
+                  "en": "Bridal make-up",
+                  "ar": "مكياج العروس"
+                },
+                "desc": {
+                  "tr": "Prova ve gün için komple uygulama.",
+                  "en": "Full application for the trial and the day.",
+                  "ar": "تطبيق كامل للتجربة ويوم الزفاف."
+                },
+                "price": 3800,
+                "duration": 120
+              }
+            ]
+          },
+          {
+            "id": "spa",
+            "name": {
+              "tr": "Masaj ve spa",
+              "en": "Massage and spa",
+              "ar": "التدليك والسبا"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Rahatlatıcı masaj",
+                  "en": "Relaxing massage",
+                  "ar": "تدليك استرخاء"
+                },
+                "desc": {
+                  "tr": "Sırt ve omuzlar için rahatlama masajı.",
+                  "en": "A relaxing back and shoulder massage.",
+                  "ar": "تدليك مريح للظهر والكتفين."
+                },
+                "price": 1100,
+                "duration": 50
+              },
+              {
+                "name": {
+                  "tr": "Aromaterapi masajı",
+                  "en": "Aromatherapy massage",
+                  "ar": "تدليك بالعلاج العطري"
+                },
+                "desc": {
+                  "tr": "Esansiyel yağlarla bütün vücut.",
+                  "en": "Full body with essential oils.",
+                  "ar": "للجسم كاملًا بالزيوت العطرية."
+                },
+                "price": 1300,
+                "duration": 60
+              }
+            ]
+          }
+        ],
+        "ui": {
+          "tabsLabel": {
+            "tr": "Menü kategorileri",
+            "en": "Menu categories",
+            "ar": "فئات القائمة"
+          },
+          "allTab": {
+            "tr": "Tümü",
+            "en": "All",
+            "ar": "الكل"
+          },
+          "toolsLabel": {
+            "tr": "Menü araçları",
+            "en": "Menu tools",
+            "ar": "أدوات القائمة"
+          },
+          "searchLabel": {
+            "tr": "Menüde ara",
+            "en": "Search the menu",
+            "ar": "ابحث في القائمة"
+          },
+          "searchHint": {
+            "tr": "Ürün adı ya da içerik yazın",
+            "en": "Type a dish name or ingredient",
+            "ar": "اكتب اسم الطبق أو أحد مكوناته"
+          },
+          "searchHint_fiyat": {
+            "tr": "Hizmet adı yazın",
+            "en": "Type a service name",
+            "ar": "اكتب اسم الخدمة"
+          },
+          "filterTitle": {
+            "tr": "Alerjene göre süz",
+            "en": "Filter by allergen",
+            "ar": "التصفية حسب مسببات الحساسية"
+          },
+          "filterHint": {
+            "tr": "İşaretlediğiniz alerjeni içermeyen ürünler gösterilir.",
+            "en": "Only items without the allergens you select are shown.",
+            "ar": "تُعرَض فقط الأطباق الخالية من مسببات الحساسية التي تحددها."
+          },
+          "filterTagsTitle": {
+            "tr": "Beslenme tercihi",
+            "en": "Dietary preference",
+            "ar": "التفضيل الغذائي"
+          },
+          "without": {
+            "tr": "{name} yok",
+            "en": "No {name}",
+            "ar": "بدون {name}"
+          },
+          "clearFilters": {
+            "tr": "Filtreleri temizle",
+            "en": "Clear filters",
+            "ar": "مسح عوامل التصفية"
+          },
+          "count_menu": {
+            "tr": {
+              "one": "{n} ürün gösteriliyor",
+              "other": "{n} ürün gösteriliyor"
+            },
+            "en": {
+              "one": "Showing {n} item",
+              "other": "Showing {n} items"
+            },
+            "ar": {
+              "zero": "لا توجد أطباق",
+              "one": "طبق واحد",
+              "two": "طبقان",
+              "few": "{n} أطباق",
+              "many": "{n} طبقًا",
+              "other": "{n} طبق"
+            }
+          },
+          "count_fiyat": {
+            "tr": {
+              "one": "{n} hizmet gösteriliyor",
+              "other": "{n} hizmet gösteriliyor"
+            },
+            "en": {
+              "one": "Showing {n} service",
+              "other": "Showing {n} services"
+            },
+            "ar": {
+              "zero": "لا توجد خدمات",
+              "one": "خدمة واحدة",
+              "two": "خدمتان",
+              "few": "{n} خدمات",
+              "many": "{n} خدمةً",
+              "other": "{n} خدمة"
+            }
+          },
+          "noResults": {
+            "tr": "Seçtiğiniz ölçütlere uygun ürün bulunamadı.",
+            "en": "No items match your selection.",
+            "ar": "لا توجد عناصر تطابق اختيارك."
+          },
+          "printBtn": {
+            "tr": "Yazdır / PDF",
+            "en": "Print / PDF",
+            "ar": "طباعة / PDF"
+          },
+          "contains": {
+            "tr": "İçerir:",
+            "en": "Contains:",
+            "ar": "يحتوي على:"
+          },
+          "allergensLabel": {
+            "tr": "Alerjenler",
+            "en": "Allergens",
+            "ar": "مسببات الحساسية"
+          },
+          "tagsLabel": {
+            "tr": "Etiketler",
+            "en": "Tags",
+            "ar": "الوسوم"
+          },
+          "from": {
+            "tr": "Başlangıç",
+            "en": "From",
+            "ar": "ابتداءً من"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "legendTitle": {
+            "tr": "Alerjen rehberi",
+            "en": "Allergen guide",
+            "ar": "دليل مسببات الحساسية"
+          },
+          "legendCaption": {
+            "tr": "Menüde kullanılan alerjen simgeleri ve anlamları",
+            "en": "Allergen symbols used on this menu and what they mean",
+            "ar": "رموز مسببات الحساسية المستخدمة في القائمة ومعانيها"
+          },
+          "legendCode": {
+            "tr": "Simge",
+            "en": "Symbol",
+            "ar": "الرمز"
+          },
+          "legendName": {
+            "tr": "Alerjen",
+            "en": "Allergen",
+            "ar": "مسبب الحساسية"
+          }
+        }
+      },
+      "id": "mlwjsf",
+      "path": "menu-liste",
+      "local": "body",
+      "data": [],
+      "index": 19
+    },
+    {
+      "name": "Menü / Fiyat Listesi",
+      "description": "Kategorili menü ve hizmet fiyat listesi (30 Eki 2026). Menü kipi: 14 alerjen (AB 1169/2011) ikon + kısaltma rozeti, alerjen rehberi tablosu, alerjene göre hariç tutma filtresi (MxFiltre), etiketler, kategori sekmeleri (RTL ok tuşu), arama, yazdırma/QR menü düzeni. Fiyat kipi: süre + fiyat satırı. Üç dil (tr/en/ar).",
+      "version": "1.0.0",
+      "icon": "restaurant_menu",
+      "category": "menu",
+      "tags": [
+        "menu",
+        "fiyat-listesi",
+        "alerjen",
+        "qr-menu"
+      ],
+      "desing": {
+        "max": "980px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "stickyTop": "0px",
+        "mode": "fiyat",
+        "currency": "₺",
+        "showAllergens": false,
+        "allergenLegend": false,
+        "print": false,
+        "filter": false,
+        "search": false,
+        "allTab": true,
+        "filterTags": [
+          "vegan",
+          "vegetarian"
+        ],
+        "badge": {
+          "tr": "Kampanyalar",
+          "en": "Offers",
+          "ar": "العروض"
+        },
+        "title": {
+          "tr": "Bakım paketleri",
+          "en": "Care packages",
+          "ar": "باقات العناية"
+        },
+        "description": {
+          "tr": "Birkaç hizmeti tek pakette alın, tasarruf edin. Paket fiyatları KDV dahil nihai fiyatlardır; paketler 60 gün geçerlidir ve randevu müsaitliğine bağlıdır.",
+          "en": "Take several services in one package and save. Package prices are final prices including VAT; packages are valid for 60 days and subject to appointment availability.",
+          "ar": "احصلي على عدة خدمات في باقة واحدة ووفّري. أسعار الباقات نهائية وتشمل الضريبة؛ الباقات صالحة 60 يومًا وتخضع لتوفر المواعيد."
+        },
+        "priceNote": {
+          "tr": "Tüm fiyatlar KDV dahil nihai fiyatlardır.",
+          "en": "All prices are final prices including VAT.",
+          "ar": "جميع الأسعار نهائية وتشمل ضريبة القيمة المضافة."
+        },
+        "legalNote": {
+          "tr": "Paketler 60 gün geçerlidir; randevuya bağlıdır.",
+          "en": "Packages are valid for 60 days and subject to appointment availability.",
+          "ar": "الباقات صالحة 60 يومًا وتخضع لتوفر المواعيد."
+        },
+        "tagLabels": {
+          "vegan": {
+            "tr": "Vegan",
+            "en": "Vegan",
+            "ar": "نباتي صرف"
+          },
+          "vegetarian": {
+            "tr": "Vejetaryen",
+            "en": "Vegetarian",
+            "ar": "نباتي"
+          },
+          "spicy": {
+            "tr": "Acı",
+            "en": "Spicy",
+            "ar": "حار"
+          },
+          "new": {
+            "tr": "Yeni",
+            "en": "New",
+            "ar": "جديد"
+          },
+          "chef": {
+            "tr": "Şefin önerisi",
+            "en": "Chef's pick",
+            "ar": "اختيار الشيف"
+          }
+        },
+        "tagIcons": {
+          "vegan": "eco",
+          "vegetarian": "grass",
+          "spicy": "local_fire_department",
+          "new": "new_releases",
+          "chef": "workspace_premium"
+        },
+        "allergens": {
+          "gluten": {
+            "icon": "grain",
+            "code": {
+              "tr": "GLU",
+              "en": "GLU",
+              "ar": "غل"
+            },
+            "name": {
+              "tr": "Gluten içeren tahıllar",
+              "en": "Cereals containing gluten",
+              "ar": "الحبوب المحتوية على الغلوتين"
+            }
+          },
+          "crustaceans": {
+            "icon": "pest_control",
+            "code": {
+              "tr": "KBK",
+              "en": "CRU",
+              "ar": "قش"
+            },
+            "name": {
+              "tr": "Kabuklular",
+              "en": "Crustaceans",
+              "ar": "القشريات"
+            }
+          },
+          "eggs": {
+            "icon": "egg_alt",
+            "code": {
+              "tr": "YMR",
+              "en": "EGG",
+              "ar": "بض"
+            },
+            "name": {
+              "tr": "Yumurta",
+              "en": "Eggs",
+              "ar": "البيض"
+            }
+          },
+          "fish": {
+            "icon": "set_meal",
+            "code": {
+              "tr": "BLK",
+              "en": "FSH",
+              "ar": "سك"
+            },
+            "name": {
+              "tr": "Balık",
+              "en": "Fish",
+              "ar": "السمك"
+            }
+          },
+          "peanuts": {
+            "icon": "eco",
+            "code": {
+              "tr": "FST",
+              "en": "PNT",
+              "ar": "فس"
+            },
+            "name": {
+              "tr": "Yer fıstığı",
+              "en": "Peanuts",
+              "ar": "الفول السوداني"
+            }
+          },
+          "soy": {
+            "icon": "grass",
+            "code": {
+              "tr": "SOY",
+              "en": "SOY",
+              "ar": "صو"
+            },
+            "name": {
+              "tr": "Soya",
+              "en": "Soy",
+              "ar": "الصويا"
+            }
+          },
+          "milk": {
+            "icon": "local_drink",
+            "code": {
+              "tr": "SÜT",
+              "en": "MLK",
+              "ar": "حل"
+            },
+            "name": {
+              "tr": "Süt ve süt ürünleri",
+              "en": "Milk and dairy",
+              "ar": "الحليب ومشتقاته"
+            }
+          },
+          "nuts": {
+            "icon": "forest",
+            "code": {
+              "tr": "SKY",
+              "en": "NUT",
+              "ar": "مك"
+            },
+            "name": {
+              "tr": "Sert kabuklu yemişler",
+              "en": "Tree nuts",
+              "ar": "المكسرات"
+            }
+          },
+          "celery": {
+            "icon": "potted_plant",
+            "code": {
+              "tr": "KRZ",
+              "en": "CEL",
+              "ar": "كر"
+            },
+            "name": {
+              "tr": "Kereviz",
+              "en": "Celery",
+              "ar": "الكرفس"
+            }
+          },
+          "mustard": {
+            "icon": "water_drop",
+            "code": {
+              "tr": "HRD",
+              "en": "MUS",
+              "ar": "خر"
+            },
+            "name": {
+              "tr": "Hardal",
+              "en": "Mustard",
+              "ar": "الخردل"
+            }
+          },
+          "sesame": {
+            "icon": "scatter_plot",
+            "code": {
+              "tr": "SSM",
+              "en": "SES",
+              "ar": "سم"
+            },
+            "name": {
+              "tr": "Susam",
+              "en": "Sesame",
+              "ar": "السمسم"
+            }
+          },
+          "sulphites": {
+            "icon": "science",
+            "code": {
+              "tr": "SO2",
+              "en": "SO2",
+              "ar": "SO2"
+            },
+            "name": {
+              "tr": "Sülfür dioksit ve sülfitler",
+              "en": "Sulphur dioxide and sulphites",
+              "ar": "ثاني أكسيد الكبريت والكبريتيت"
+            }
+          },
+          "lupin": {
+            "icon": "local_florist",
+            "code": {
+              "tr": "ABK",
+              "en": "LUP",
+              "ar": "تر"
+            },
+            "name": {
+              "tr": "Acı bakla",
+              "en": "Lupin",
+              "ar": "الترمس"
+            }
+          },
+          "molluscs": {
+            "icon": "water",
+            "code": {
+              "tr": "YMK",
+              "en": "MOL",
+              "ar": "رخ"
+            },
+            "name": {
+              "tr": "Yumuşakçalar",
+              "en": "Molluscs",
+              "ar": "الرخويات"
+            }
+          }
+        },
+        "categories": [
+          {
+            "id": "paket",
+            "name": {
+              "tr": "Bakım paketleri",
+              "en": "Care packages",
+              "ar": "باقات العناية"
+            },
+            "items": [
+              {
+                "name": {
+                  "tr": "Işıltı paketi",
+                  "en": "Glow package",
+                  "ar": "باقة الإشراق"
+                },
+                "desc": {
+                  "tr": "Saç bakım kürü + manikür + nem maskesi; ayrı ayrı alındığında 1.700 ₺.",
+                  "en": "Hair treatment + manicure + hydrating mask; 1,700 ₺ if booked separately.",
+                  "ar": "جلسة عناية بالشعر + مانيكير + قناع ترطيب؛ 1.700 ₺ عند الحجز منفردة."
+                },
+                "price": 1450,
+                "duration": 125
+              },
+              {
+                "name": {
+                  "tr": "Arkadaş günü",
+                  "en": "Friends day",
+                  "ar": "يوم الصديقات"
+                },
+                "desc": {
+                  "tr": "İki kişi için rahatlatıcı masaj ve cilt bakımı; fiyat iki kişi içindir.",
+                  "en": "Relaxing massage and facial for two; the price is for two people.",
+                  "ar": "تدليك استرخاء وعناية بالبشرة لشخصين؛ السعر لشخصين."
+                },
+                "price": 3800,
+                "duration": 110
+              },
+              {
+                "name": {
+                  "tr": "Gelin hazırlık paketi",
+                  "en": "Bridal preparation package",
+                  "ar": "باقة تحضير العروس"
+                },
+                "desc": {
+                  "tr": "Gelin makyajı + saç şekillendirme + manikür; prova dahil.",
+                  "en": "Bridal make-up + hair styling + manicure; trial included.",
+                  "ar": "مكياج العروس + تصفيف الشعر + مانيكير؛ شاملة التجربة."
+                },
+                "price": 5600,
+                "duration": 300
+              }
+            ]
+          }
+        ],
+        "ui": {
+          "tabsLabel": {
+            "tr": "Menü kategorileri",
+            "en": "Menu categories",
+            "ar": "فئات القائمة"
+          },
+          "allTab": {
+            "tr": "Tümü",
+            "en": "All",
+            "ar": "الكل"
+          },
+          "toolsLabel": {
+            "tr": "Menü araçları",
+            "en": "Menu tools",
+            "ar": "أدوات القائمة"
+          },
+          "searchLabel": {
+            "tr": "Menüde ara",
+            "en": "Search the menu",
+            "ar": "ابحث في القائمة"
+          },
+          "searchHint": {
+            "tr": "Ürün adı ya da içerik yazın",
+            "en": "Type a dish name or ingredient",
+            "ar": "اكتب اسم الطبق أو أحد مكوناته"
+          },
+          "searchHint_fiyat": {
+            "tr": "Hizmet adı yazın",
+            "en": "Type a service name",
+            "ar": "اكتب اسم الخدمة"
+          },
+          "filterTitle": {
+            "tr": "Alerjene göre süz",
+            "en": "Filter by allergen",
+            "ar": "التصفية حسب مسببات الحساسية"
+          },
+          "filterHint": {
+            "tr": "İşaretlediğiniz alerjeni içermeyen ürünler gösterilir.",
+            "en": "Only items without the allergens you select are shown.",
+            "ar": "تُعرَض فقط الأطباق الخالية من مسببات الحساسية التي تحددها."
+          },
+          "filterTagsTitle": {
+            "tr": "Beslenme tercihi",
+            "en": "Dietary preference",
+            "ar": "التفضيل الغذائي"
+          },
+          "without": {
+            "tr": "{name} yok",
+            "en": "No {name}",
+            "ar": "بدون {name}"
+          },
+          "clearFilters": {
+            "tr": "Filtreleri temizle",
+            "en": "Clear filters",
+            "ar": "مسح عوامل التصفية"
+          },
+          "count_menu": {
+            "tr": {
+              "one": "{n} ürün gösteriliyor",
+              "other": "{n} ürün gösteriliyor"
+            },
+            "en": {
+              "one": "Showing {n} item",
+              "other": "Showing {n} items"
+            },
+            "ar": {
+              "zero": "لا توجد أطباق",
+              "one": "طبق واحد",
+              "two": "طبقان",
+              "few": "{n} أطباق",
+              "many": "{n} طبقًا",
+              "other": "{n} طبق"
+            }
+          },
+          "count_fiyat": {
+            "tr": {
+              "one": "{n} hizmet gösteriliyor",
+              "other": "{n} hizmet gösteriliyor"
+            },
+            "en": {
+              "one": "Showing {n} service",
+              "other": "Showing {n} services"
+            },
+            "ar": {
+              "zero": "لا توجد خدمات",
+              "one": "خدمة واحدة",
+              "two": "خدمتان",
+              "few": "{n} خدمات",
+              "many": "{n} خدمةً",
+              "other": "{n} خدمة"
+            }
+          },
+          "noResults": {
+            "tr": "Seçtiğiniz ölçütlere uygun ürün bulunamadı.",
+            "en": "No items match your selection.",
+            "ar": "لا توجد عناصر تطابق اختيارك."
+          },
+          "printBtn": {
+            "tr": "Yazdır / PDF",
+            "en": "Print / PDF",
+            "ar": "طباعة / PDF"
+          },
+          "contains": {
+            "tr": "İçerir:",
+            "en": "Contains:",
+            "ar": "يحتوي على:"
+          },
+          "allergensLabel": {
+            "tr": "Alerjenler",
+            "en": "Allergens",
+            "ar": "مسببات الحساسية"
+          },
+          "tagsLabel": {
+            "tr": "Etiketler",
+            "en": "Tags",
+            "ar": "الوسوم"
+          },
+          "from": {
+            "tr": "Başlangıç",
+            "en": "From",
+            "ar": "ابتداءً من"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "legendTitle": {
+            "tr": "Alerjen rehberi",
+            "en": "Allergen guide",
+            "ar": "دليل مسببات الحساسية"
+          },
+          "legendCaption": {
+            "tr": "Menüde kullanılan alerjen simgeleri ve anlamları",
+            "en": "Allergen symbols used on this menu and what they mean",
+            "ar": "رموز مسببات الحساسية المستخدمة في القائمة ومعانيها"
+          },
+          "legendCode": {
+            "tr": "Simge",
+            "en": "Symbol",
+            "ar": "الرمز"
+          },
+          "legendName": {
+            "tr": "Alerjen",
+            "en": "Allergen",
+            "ar": "مسبب الحساسية"
+          }
+        }
+      },
+      "id": "fx27kk",
+      "path": "menu-liste",
+      "local": "body",
+      "data": [],
+      "index": 20
+    },
+    {
+      "name": {
+        "tr": "Ekip 2 — Zengin kartlar",
+        "en": "Team 2 — Rich cards",
+        "ar": "الفريق 2 — بطاقات غنية"
+      },
+      "description": {
+        "tr": "Ekip kartları: fotoğraf (hover'da ikinci görsel ya da sosyal ikonlar belirir — desing.hover), ad, unvan, kısa bio; bölüm çipleriyle filtre (mx-filtre.js varsa onu, yoksa yerel filtre kullanır; ?dept= URL durumu); «tüm ekip» CTA. Üç varyant (desing.stil): kartli · yuvarlak (daire fotoğraf, ortalı) · yatay-liste (fotoğraf sol, bio sağ). data[] = {name, role{}, bio{}, img, img2, dept, social[]}. Üç dil, RTL, koyu mod token'larla.",
+        "en": "Team cards: photo (second image or social icons appear on hover — desing.hover), name, role, short bio; department chip filter (uses mx-filtre.js when available, otherwise a local filter; ?dept= URL state); «whole team» CTA. Three variants (desing.stil): kartli · yuvarlak (round photo, centred) · yatay-liste (photo left, bio right). data[] = {name, role{}, bio{}, img, img2, dept, social[]}. Three languages, RTL, dark mode via tokens.",
+        "ar": "بطاقات الفريق: صورة (تظهر صورة ثانية أو أيقونات التواصل عند التمرير)، الاسم، المسمّى، نبذة قصيرة؛ تصفية بشرائح الأقسام؛ زر «كل الفريق». ثلاثة أنماط: بطاقات · دائري · قائمة أفقية. ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "groups",
+      "category": "team",
+      "tags": [
+        "ekip",
+        "team",
+        "kadro",
+        "filtre",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "kartli",
+        "hover": "gorsel",
+        "filter": false,
+        "urlPrefix": "",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 70%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "radius": "20px",
+        "title": {
+          "tr": "Uzman ekibimiz",
+          "en": "Our specialists",
+          "ar": "فريق المختصات"
+        },
+        "description": {
+          "tr": "Kurgusal demo kadro; görseller kurgusaldır, kişi içermez.",
+          "en": "A fictional demo team; images are fictional and show no identifiable person.",
+          "ar": "فريق تجريبي افتراضي؛ الصور افتراضية ولا تُظهر شخصًا يمكن التعرّف عليه."
+        },
+        "filterLabel": {
+          "tr": "Bölüme göre filtrele",
+          "en": "Filter by department",
+          "ar": "التصفية حسب القسم"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "ctaText": {
+          "tr": "Randevu al",
+          "en": "Book now",
+          "ar": "احجزي الآن"
+        },
+        "ctaHref": "online-randevu",
+        "socialLabel": {
+          "tr": "{ad} — sosyal bağlantılar",
+          "en": "{ad} — social links",
+          "ar": "{ad} — روابط التواصل"
+        },
+        "emptyText": {
+          "tr": "Bu bölümde gösterilecek kişi yok.",
+          "en": "No people to show in this department.",
+          "ar": "لا يوجد أشخاص لعرضهم في هذا القسم."
+        },
+        "departments": []
+      },
+      "data": [
+        {
+          "name": "Lara E.",
+          "role": {
+            "tr": "Saç stilisti",
+            "en": "Hair stylist",
+            "ar": "مصففة شعر"
+          },
+          "bio": {
+            "tr": "Kesim, renk ve röfle; 7 yıllık salon deneyimi.",
+            "en": "Cutting, colour and highlights; 7 years of salon experience.",
+            "ar": "قص وصبغ وهايلايت؛ 7 سنوات من الخبرة."
+          },
+          "img": "/img/guzellik-ekip-1.webp",
+          "img2": "/img/guzellik-hizmet-sac.webp",
+          "dept": "sac"
+        },
+        {
+          "name": "Defne K.",
+          "role": {
+            "tr": "Cilt ve spa uzmanı",
+            "en": "Skin and spa specialist",
+            "ar": "مختصة البشرة والسبا"
+          },
+          "bio": {
+            "tr": "Cilt bakımı ve aromaterapi masajı.",
+            "en": "Facials and aromatherapy massage.",
+            "ar": "عناية بالبشرة وتدليك بالعلاج العطري."
+          },
+          "img": "/img/guzellik-ekip-2.webp",
+          "img2": "/img/guzellik-hizmet-spa.webp",
+          "dept": "bakim"
+        },
+        {
+          "name": "Eylül S.",
+          "role": {
+            "tr": "Tırnak ve makyaj",
+            "en": "Nails and make-up",
+            "ar": "الأظافر والمكياج"
+          },
+          "bio": {
+            "tr": "Jel tırnak, kalıcı oje ve gündüz makyajı.",
+            "en": "Gel nails, gel polish and day make-up.",
+            "ar": "أظافر جل وطلاء ثابت ومكياج نهاري."
+          },
+          "img": "/img/guzellik-hizmet-tirnak.webp",
+          "img2": "/img/guzellik-galeri-3.webp",
+          "dept": "bakim"
+        }
+      ],
+      "id": "jjfoqj",
+      "path": "team-2",
+      "local": "body",
+      "index": 21
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "category": "galeri",
+      "tags": [
+        "galeri",
+        "masonry",
+        "filtre",
+        "lightbox",
+        "portfolyo",
+        "gallery",
+        "ar"
+      ],
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1e1b2e) 55%, transparent)",
+        "gap": "14px",
+        "radius": "16px",
+        "columns": {
+          "d": 4,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "المعرض"
+        },
+        "description": {
+          "tr": "Salondan ve bakım anlarından kareler. Görseller kurgusaldır.",
+          "en": "Frames from the salon and care moments. Images are fictional.",
+          "ar": "لقطات من الصالون ولحظات العناية. الصور افتراضية."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "sac",
+            "name": {
+              "tr": "Saç",
+              "en": "Hair",
+              "ar": "الشعر"
+            }
+          },
+          {
+            "id": "bakim",
+            "name": {
+              "tr": "Bakım",
+              "en": "Care",
+              "ar": "العناية"
+            }
+          },
+          {
+            "id": "salon",
+            "name": {
+              "tr": "Salon",
+              "en": "Salon",
+              "ar": "الصالون"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "img": "guzellik-hizmet-sac.webp",
+          "cat": "sac",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Saç araçları",
+            "en": "Hair tools",
+            "ar": "أدوات الشعر"
+          },
+          "alt": {
+            "tr": "Mermer tezgâhta makas ve fırça",
+            "en": "Scissors and brush on a marble counter",
+            "ar": "مقص وفرشاة على طاولة رخامية"
+          }
+        },
+        {
+          "img": "guzellik-galeri-4.webp",
+          "cat": "bakim",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Parfüm",
+            "en": "Perfume",
+            "ar": "عطر"
+          },
+          "alt": {
+            "tr": "Tepsi üzerinde parfüm şişesi ve kuru çiçekler",
+            "en": "A perfume bottle and dried flowers on a tray",
+            "ar": "زجاجة عطر وزهور مجففة على صينية"
+          }
+        },
+        {
+          "img": "guzellik-hero-salon.webp",
+          "cat": "salon",
+          "w": 1280,
+          "h": 720,
+          "title": {
+            "tr": "Salon",
+            "en": "The salon",
+            "ar": "الصالون"
+          },
+          "alt": {
+            "tr": "Pudra pembesi koltuklu aydınlık salon",
+            "en": "A bright salon with powder-pink armchairs",
+            "ar": "صالون مضيء بمقاعد وردية فاتحة"
+          }
+        },
+        {
+          "img": "guzellik-galeri-3.webp",
+          "cat": "bakim",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Makyaj fırçaları",
+            "en": "Make-up brushes",
+            "ar": "فُرَش المكياج"
+          },
+          "alt": {
+            "tr": "Pembe mermerde makyaj fırçaları ve palet",
+            "en": "Make-up brushes and palette on pink marble",
+            "ar": "فُرَش مكياج وباليت على رخام وردي"
+          }
+        },
+        {
+          "img": "guzellik-galeri-1.webp",
+          "cat": "sac",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Örgü saç",
+            "en": "Braided style",
+            "ar": "تسريحة ضفيرة"
+          },
+          "alt": {
+            "tr": "Arkadan örgü saç detayı",
+            "en": "Detail of a braided hairstyle from behind",
+            "ar": "تفصيل تسريحة ضفيرة من الخلف"
+          }
+        },
+        {
+          "img": "guzellik-hizmet-spa.webp",
+          "cat": "bakim",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Spa köşesi",
+            "en": "Spa corner",
+            "ar": "ركن السبا"
+          },
+          "alt": {
+            "tr": "Gül yaprakları, mum ve banyo tuzu",
+            "en": "Rose petals, a candle and bath salts",
+            "ar": "بتلات ورد وشمعة وأملاح استحمام"
+          }
+        },
+        {
+          "img": "guzellik-hizmet-masaj.webp",
+          "cat": "salon",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Masaj odası",
+            "en": "Massage room",
+            "ar": "غرفة التدليك"
+          },
+          "alt": {
+            "tr": "Mumlar ve havlularla sakin masaj odası",
+            "en": "A calm massage room with candles and towels",
+            "ar": "غرفة تدليك هادئة بالشموع والمناشف"
+          }
+        },
+        {
+          "img": "guzellik-galeri-2.webp",
+          "cat": "bakim",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Gül ve bakım",
+            "en": "Rose and care",
+            "ar": "وردة وعناية"
+          },
+          "alt": {
+            "tr": "Gül tutan eller ve yumuşak bez",
+            "en": "Hands holding a rose and a soft cloth",
+            "ar": "يدان تحملان وردة وقطعة قماش ناعمة"
+          }
+        }
+      ],
+      "id": "q2oe3f",
+      "path": "galeri-masonry",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "Randevu / Rezervasyon Formu",
+      "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+      "version": "1.0.0",
+      "icon": "event_available",
+      "category": "randevu",
+      "tags": [
+        "randevu",
+        "rezervasyon",
+        "takvim",
+        "form",
+        "whatsapp",
+        "ics"
+      ],
+      "desing": {
+        "max": "960px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
+        "mode": "randevu",
+        "submit": "whatsapp",
+        "demo": true,
+        "weekStart": "auto",
+        "leadDays": 1,
+        "maxDays": 45,
+        "maxPartySize": 8,
+        "masaDuration": 90,
+        "requireEmail": false,
+        "phone": "+90 342 000 00 00",
+        "email": "merhaba@lilastudio.example",
+        "location": {
+          "tr": "Ordu Caddesi No: 5, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "5 Ordu Avenue, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع أوردو رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "badge": {
+          "tr": "Randevu",
+          "en": "Appointment",
+          "ar": "موعد"
+        },
+        "title": {
+          "tr": "Online randevu alın",
+          "en": "Book your appointment online",
+          "ar": "احجزي موعدك عبر الإنترنت"
+        },
+        "description": {
+          "tr": "Hizmeti, uzmanı, günü ve saati seçin. Randevu öncesi ön bilgilendirme sayfamızı okumanızı öneririz. Bu form demodur; talebiniz yalnızca tarayıcınızda oluşturulur.",
+          "en": "Choose the service, specialist, day and time. We recommend reading our pre-visit information page before you book. This form is a demo; your request is created in your browser only.",
+          "ar": "اختاري الخدمة والمختصة واليوم والوقت. نوصي بقراءة صفحة معلومات قبل الزيارة قبل الحجز. هذا النموذج تجريبي، ويُنشأ طلبك في متصفحك فقط."
+        },
+        "noscript": {
+          "tr": "Randevu formunu kullanmak için tarayıcınızda JavaScript açık olmalıdır. Bunun yerine bizi arayabilirsiniz.",
+          "en": "JavaScript must be enabled in your browser to use the booking form. You can call us instead.",
+          "ar": "يجب تفعيل JavaScript في المتصفح لاستخدام نموذج الحجز. يمكنك الاتصال بنا بدلًا من ذلك."
+        },
+        "services": [
+          {
+            "id": "kesim",
+            "name": {
+              "tr": "Saç kesimi",
+              "en": "Haircut",
+              "ar": "قص الشعر"
+            },
+            "duration": 45,
+            "price": 500
+          },
+          {
+            "id": "boya",
+            "name": {
+              "tr": "Saç boyama",
+              "en": "Hair colouring",
+              "ar": "صبغ الشعر"
+            },
+            "duration": 120,
+            "price": 1300
+          },
+          {
+            "id": "manikur",
+            "name": {
+              "tr": "Manikür",
+              "en": "Manicure",
+              "ar": "مانيكير"
+            },
+            "duration": 40,
+            "price": 380
+          },
+          {
+            "id": "cilt",
+            "name": {
+              "tr": "Klasik cilt bakımı",
+              "en": "Classic facial",
+              "ar": "عناية كلاسيكية بالبشرة"
+            },
+            "duration": 60,
+            "price": 980
+          },
+          {
+            "id": "makyaj",
+            "name": {
+              "tr": "Gündüz makyajı",
+              "en": "Day make-up",
+              "ar": "مكياج نهاري"
+            },
+            "duration": 45,
+            "price": 750
+          },
+          {
+            "id": "masaj",
+            "name": {
+              "tr": "Rahatlatıcı masaj",
+              "en": "Relaxing massage",
+              "ar": "تدليك استرخاء"
+            },
+            "duration": 50,
+            "price": 1100
+          }
+        ],
+        "staff": [
+          {
+            "id": "lara",
+            "name": {
+              "tr": "Lara E.",
+              "en": "Lara E.",
+              "ar": "لارا إ."
+            },
+            "role": {
+              "tr": "Saç stilisti",
+              "en": "Hair stylist",
+              "ar": "مصففة شعر"
+            },
+            "services": [
+              "kesim",
+              "boya"
+            ]
+          },
+          {
+            "id": "defne",
+            "name": {
+              "tr": "Defne K.",
+              "en": "Defne K.",
+              "ar": "دفنه ك."
+            },
+            "role": {
+              "tr": "Cilt ve spa uzmanı",
+              "en": "Skin and spa specialist",
+              "ar": "مختصة البشرة والسبا"
+            },
+            "services": [
+              "cilt",
+              "masaj"
+            ]
+          },
+          {
+            "id": "eylul",
+            "name": {
+              "tr": "Eylül S.",
+              "en": "Eylul S.",
+              "ar": "إيلول س."
+            },
+            "role": {
+              "tr": "Tırnak ve makyaj",
+              "en": "Nails and make-up",
+              "ar": "الأظافر والمكياج"
+            },
+            "services": [
+              "manikur",
+              "makyaj"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "id": "ic",
+            "name": {
+              "tr": "İç salon",
+              "en": "Indoor",
+              "ar": "الصالة الداخلية"
+            }
+          },
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Bahçe",
+              "en": "Garden",
+              "ar": "الحديقة"
+            }
+          }
+        ],
+        "hours": {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "10:00",
+          "end": "20:00",
+          "slot": 30,
+          "breaks": [
+            {
+              "start": "14:00",
+              "end": "15:00"
+            }
+          ]
+        },
+        "closed": [
+          "2026-12-25",
+          "2026-12-31",
+          "2027-01-01"
+        ],
+        "kvkk": {
+          "text": {
+            "tr": "Kişisel verilerimin bu randevu talebi için işlenmesine ilişkin aydınlatma metnini okudum.",
+            "en": "I have read the privacy notice on how my personal data is processed for this booking request.",
+            "ar": "لقد قرأتُ إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لطلب الموعد هذا."
+          },
+          "href": "kisiselveriler"
+        },
+        "successText": {
+          "tr": "Talebiniz alındı. Randevunuz ekibimizin onayından sonra kesinleşir. (Demo)",
+          "en": "Your request has been received. The appointment is confirmed once our team approves it. (Demo)",
+          "ar": "تم استلام طلبك. يصبح الموعد مؤكدًا بعد موافقة فريقنا. (تجريبي)"
+        },
+        "ui": {
+          "stepsLabel": {
+            "tr": "Adımlar",
+            "en": "Steps",
+            "ar": "الخطوات"
+          },
+          "stepOf": {
+            "tr": "Adım {n} / {m}",
+            "en": "Step {n} of {m}",
+            "ar": "الخطوة {n} من {m}"
+          },
+          "s_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "s_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "s_party": {
+            "tr": "Kişi",
+            "en": "Guests",
+            "ar": "الضيوف"
+          },
+          "s_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "s_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "s_info": {
+            "tr": "Bilgiler",
+            "en": "Details",
+            "ar": "البيانات"
+          },
+          "s_confirm": {
+            "tr": "Onay",
+            "en": "Confirm",
+            "ar": "التأكيد"
+          },
+          "back": {
+            "tr": "Geri",
+            "en": "Back",
+            "ar": "رجوع"
+          },
+          "next": {
+            "tr": "Devam",
+            "en": "Continue",
+            "ar": "متابعة"
+          },
+          "reqNote": {
+            "tr": "* ile işaretli alanlar zorunludur.",
+            "en": "Fields marked * are required.",
+            "ar": "الحقول المميزة بعلامة * إلزامية."
+          },
+          "t_service": {
+            "tr": "Hizmet seçin",
+            "en": "Choose a service",
+            "ar": "اختر الخدمة"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "t_staff": {
+            "tr": "Uzman seçin",
+            "en": "Choose a specialist",
+            "ar": "اختر المختص"
+          },
+          "anyStaff": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "anyStaffHint": {
+            "tr": "Uygun olan uzman atanır.",
+            "en": "The first available specialist is assigned.",
+            "ar": "يُسنَد الموعد إلى أول مختص متاح."
+          },
+          "t_party": {
+            "tr": "Kaç kişisiniz?",
+            "en": "How many guests?",
+            "ar": "كم عدد الضيوف؟"
+          },
+          "partyMinus": {
+            "tr": "Kişi sayısını azalt",
+            "en": "Decrease guests",
+            "ar": "تقليل عدد الضيوف"
+          },
+          "partyPlus": {
+            "tr": "Kişi sayısını artır",
+            "en": "Increase guests",
+            "ar": "زيادة عدد الضيوف"
+          },
+          "partyCount": {
+            "tr": {
+              "one": "{n} kişi",
+              "other": "{n} kişi"
+            },
+            "en": {
+              "one": "{n} guest",
+              "other": "{n} guests"
+            },
+            "ar": {
+              "zero": "{n} ضيف",
+              "one": "ضيف واحد",
+              "two": "ضيفان",
+              "few": "{n} ضيوف",
+              "many": "{n} ضيفًا",
+              "other": "{n} ضيف"
+            }
+          },
+          "groupHint": {
+            "tr": "{n} kişiden büyük gruplar için lütfen bizi arayın.",
+            "en": "For groups larger than {n}, please call us.",
+            "ar": "للمجموعات التي يزيد عددها عن {n}، يُرجى الاتصال بنا."
+          },
+          "t_section": {
+            "tr": "Bölüm tercihi",
+            "en": "Seating preference",
+            "ar": "تفضيل الجلسة"
+          },
+          "anySection": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "t_date": {
+            "tr": "Tarih seçin",
+            "en": "Choose a date",
+            "ar": "اختر التاريخ"
+          },
+          "prevMonth": {
+            "tr": "Önceki ay",
+            "en": "Previous month",
+            "ar": "الشهر السابق"
+          },
+          "nextMonth": {
+            "tr": "Sonraki ay",
+            "en": "Next month",
+            "ar": "الشهر التالي"
+          },
+          "calHint": {
+            "tr": "Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın. Kapalı günler seçilemez.",
+            "en": "Use the arrow keys to move and Enter to select. Unavailable days cannot be chosen.",
+            "ar": "استخدم مفاتيح الأسهم للتنقل ومفتاح Enter للاختيار. لا يمكن اختيار الأيام غير المتاحة."
+          },
+          "dayUnavailable": {
+            "tr": "uygun değil",
+            "en": "unavailable",
+            "ar": "غير متاح"
+          },
+          "selectedDate": {
+            "tr": "Seçilen tarih: {d}",
+            "en": "Selected date: {d}",
+            "ar": "التاريخ المختار: {d}"
+          },
+          "t_time": {
+            "tr": "Saat seçin",
+            "en": "Choose a time",
+            "ar": "اختر الوقت"
+          },
+          "timesFor": {
+            "tr": "{d} için uygun saatler",
+            "en": "Available times for {d}",
+            "ar": "الأوقات المتاحة ليوم {d}"
+          },
+          "p_morning": {
+            "tr": "Sabah",
+            "en": "Morning",
+            "ar": "الصباح"
+          },
+          "p_afternoon": {
+            "tr": "Öğleden sonra",
+            "en": "Afternoon",
+            "ar": "بعد الظهر"
+          },
+          "p_evening": {
+            "tr": "Akşam",
+            "en": "Evening",
+            "ar": "المساء"
+          },
+          "slotTaken": {
+            "tr": "dolu",
+            "en": "booked",
+            "ar": "محجوز"
+          },
+          "noSlots": {
+            "tr": "Bu tarihte uygun saat kalmadı. Lütfen başka bir gün seçin.",
+            "en": "No times are left on this date. Please choose another day.",
+            "ar": "لا توجد أوقات متاحة في هذا اليوم. يُرجى اختيار يوم آخر."
+          },
+          "t_info": {
+            "tr": "İletişim bilgileriniz",
+            "en": "Your contact details",
+            "ar": "بيانات التواصل"
+          },
+          "fName": {
+            "tr": "Ad soyad",
+            "en": "Full name",
+            "ar": "الاسم الكامل"
+          },
+          "fPhone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "رقم الهاتف"
+          },
+          "fEmail": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "fEmailOpt": {
+            "tr": "E-posta (isteğe bağlı)",
+            "en": "E-mail (optional)",
+            "ar": "البريد الإلكتروني (اختياري)"
+          },
+          "fNote": {
+            "tr": "Not (isteğe bağlı)",
+            "en": "Note (optional)",
+            "ar": "ملاحظة (اختياري)"
+          },
+          "eService": {
+            "tr": "Lütfen bir hizmet seçin.",
+            "en": "Please choose a service.",
+            "ar": "يُرجى اختيار خدمة."
+          },
+          "eDate": {
+            "tr": "Lütfen uygun bir tarih seçin.",
+            "en": "Please choose an available date.",
+            "ar": "يُرجى اختيار تاريخ متاح."
+          },
+          "eTime": {
+            "tr": "Lütfen bir saat seçin.",
+            "en": "Please choose a time.",
+            "ar": "يُرجى اختيار وقت."
+          },
+          "eName": {
+            "tr": "Lütfen adınızı ve soyadınızı yazın.",
+            "en": "Please enter your full name.",
+            "ar": "يُرجى كتابة اسمك الكامل."
+          },
+          "ePhone": {
+            "tr": "Geçerli bir telefon numarası yazın.",
+            "en": "Please enter a valid phone number.",
+            "ar": "يُرجى كتابة رقم هاتف صحيح."
+          },
+          "eEmail": {
+            "tr": "Geçerli bir e-posta adresi yazın.",
+            "en": "Please enter a valid e-mail address.",
+            "ar": "يُرجى كتابة بريد إلكتروني صحيح."
+          },
+          "eKvkk": {
+            "tr": "Devam etmek için aydınlatma metnini onaylamanız gerekir.",
+            "en": "You need to accept the privacy notice to continue.",
+            "ar": "يجب الموافقة على إشعار الخصوصية للمتابعة."
+          },
+          "t_confirm": {
+            "tr": "Özet ve onay",
+            "en": "Review and confirm",
+            "ar": "المراجعة والتأكيد"
+          },
+          "sum_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "sum_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "sum_party": {
+            "tr": "Kişi sayısı",
+            "en": "Guests",
+            "ar": "عدد الضيوف"
+          },
+          "sum_section": {
+            "tr": "Bölüm",
+            "en": "Seating",
+            "ar": "الجلسة"
+          },
+          "sum_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "sum_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "sum_name": {
+            "tr": "Ad soyad",
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "sum_phone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "الهاتف"
+          },
+          "sum_email": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "sum_note": {
+            "tr": "Not",
+            "en": "Note",
+            "ar": "ملاحظة"
+          },
+          "kvkkLink": {
+            "tr": "Aydınlatma metni",
+            "en": "Privacy notice",
+            "ar": "إشعار الخصوصية"
+          },
+          "submit_whatsapp": {
+            "tr": "WhatsApp ile gönder",
+            "en": "Send via WhatsApp",
+            "ar": "إرسال عبر واتساب"
+          },
+          "submit_mailto": {
+            "tr": "E-posta ile gönder",
+            "en": "Send by e-mail",
+            "ar": "إرسال بالبريد الإلكتروني"
+          },
+          "submit_ics": {
+            "tr": "Takvim dosyasını indir",
+            "en": "Download calendar file",
+            "ar": "تنزيل ملف التقويم"
+          },
+          "showcaseNote": {
+            "tr": "Bu bölüm bir gösterimdir: girdiğiniz bilgiler hiçbir yere gönderilmez. Gerçek talep için bizi arayabilirsiniz.",
+            "en": "This is a showcase: nothing you enter is sent anywhere. To make a real request, please call us.",
+            "ar": "هذا القسم للعرض فقط: لا تُرسَل أي بيانات تدخلها. لتقديم طلب فعلي يُرجى الاتصال بنا."
+          },
+          "callUs": {
+            "tr": "Bizi arayın",
+            "en": "Call us",
+            "ar": "اتصل بنا"
+          },
+          "restart": {
+            "tr": "Başa dön",
+            "en": "Start over",
+            "ar": "العودة إلى البداية"
+          },
+          "doneTitle_randevu": {
+            "tr": "Randevu talebiniz hazır",
+            "en": "Your appointment request is ready",
+            "ar": "طلب موعدك جاهز"
+          },
+          "doneTitle_masa": {
+            "tr": "Rezervasyon talebiniz hazır",
+            "en": "Your reservation request is ready",
+            "ar": "طلب حجزك جاهز"
+          },
+          "doneHint_whatsapp": {
+            "tr": "Mesaj WhatsApp'ta hazır olarak açıldı. Talebin bize ulaşması için mesajı göndermeyi unutmayın.",
+            "en": "The message opened in WhatsApp, ready to send. Remember to send it so your request reaches us.",
+            "ar": "فُتحت الرسالة جاهزة في واتساب. لا تنسَ إرسالها كي يصلنا طلبك."
+          },
+          "doneHint_mailto": {
+            "tr": "E-posta uygulamanızda hazır bir taslak açıldı. Göndermeyi unutmayın.",
+            "en": "A draft e-mail opened in your mail app. Remember to send it.",
+            "ar": "فُتحت مسودة رسالة في تطبيق البريد. لا تنسَ إرسالها."
+          },
+          "doneHint_ics": {
+            "tr": "Takvim dosyası indirildi. Kaydı takvim uygulamanıza ekleyebilirsiniz.",
+            "en": "The calendar file was downloaded. You can add the booking to your calendar app.",
+            "ar": "تم تنزيل ملف التقويم. يمكنك إضافة الحجز إلى تطبيق التقويم."
+          },
+          "reopen": {
+            "tr": "Mesajı yeniden aç",
+            "en": "Open the message again",
+            "ar": "فتح الرسالة مرة أخرى"
+          },
+          "reopen_ics": {
+            "tr": "Dosyayı yeniden indir",
+            "en": "Download again",
+            "ar": "إعادة التنزيل"
+          },
+          "addCal": {
+            "tr": "Takvime ekle",
+            "en": "Add to calendar",
+            "ar": "إضافة إلى التقويم"
+          },
+          "newBooking_randevu": {
+            "tr": "Yeni randevu",
+            "en": "New appointment",
+            "ar": "موعد جديد"
+          },
+          "newBooking_masa": {
+            "tr": "Yeni rezervasyon",
+            "en": "New reservation",
+            "ar": "حجز جديد"
+          },
+          "demoNote": {
+            "tr": "Demo: bilgileriniz yalnızca bu tarayıcıda saklanır, hiçbir sunucuya gönderilmez.",
+            "en": "Demo: your details stay in this browser only and are never sent to a server.",
+            "ar": "عرض تجريبي: تبقى بياناتك في هذا المتصفح فقط ولا تُرسَل إلى أي خادم."
+          },
+          "myTitle_randevu": {
+            "tr": "Randevularım",
+            "en": "My appointments",
+            "ar": "مواعيدي"
+          },
+          "myTitle_masa": {
+            "tr": "Rezervasyonlarım",
+            "en": "My reservations",
+            "ar": "حجوزاتي"
+          },
+          "cancel": {
+            "tr": "İptal et",
+            "en": "Cancel",
+            "ar": "إلغاء"
+          },
+          "cancelAria": {
+            "tr": "{d} saat {t} kaydını iptal et",
+            "en": "Cancel the booking on {d} at {t}",
+            "ar": "إلغاء الحجز بتاريخ {d} الساعة {t}"
+          },
+          "cancelled": {
+            "tr": "Kayıt iptal edildi.",
+            "en": "Booking cancelled.",
+            "ar": "تم إلغاء الحجز."
+          },
+          "svcFallback_randevu": {
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "موعد"
+          },
+          "msg_randevu_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {service} randevusu almak istiyorum.",
+            "en": "Hello, I would like to book {service} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد ({service}) بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_randevu_head_nosvc": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için randevu almak istiyorum.",
+            "en": "Hello, I would like to book an appointment on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_masa_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {party} masa rezervasyonu yapmak istiyorum.",
+            "en": "Hello, I would like to reserve a table for {party} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز طاولة لـ {party} بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_staff": {
+            "tr": "Tercih edilen uzman: {staff}",
+            "en": "Preferred specialist: {staff}",
+            "ar": "المختص المفضل: {staff}"
+          },
+          "msg_section": {
+            "tr": "Bölüm: {section}",
+            "en": "Seating: {section}",
+            "ar": "الجلسة: {section}"
+          },
+          "msg_phone": {
+            "tr": "Telefon: {phone}",
+            "en": "Phone: {phone}",
+            "ar": "الهاتف: {phone}"
+          },
+          "msg_email": {
+            "tr": "E-posta: {email}",
+            "en": "E-mail: {email}",
+            "ar": "البريد الإلكتروني: {email}"
+          },
+          "msg_note": {
+            "tr": "Not: {note}",
+            "en": "Note: {note}",
+            "ar": "ملاحظة: {note}"
+          },
+          "mailSubject_randevu": {
+            "tr": "Randevu talebi – {name}",
+            "en": "Appointment request – {name}",
+            "ar": "طلب موعد – {name}"
+          },
+          "mailSubject_masa": {
+            "tr": "Rezervasyon talebi – {name}",
+            "en": "Reservation request – {name}",
+            "ar": "طلب حجز – {name}"
+          },
+          "icsSummary_randevu": {
+            "tr": "Randevu: {service}",
+            "en": "Appointment: {service}",
+            "ar": "موعد: {service}"
+          },
+          "icsSummary_masa": {
+            "tr": "Masa rezervasyonu – {party}",
+            "en": "Table reservation – {party}",
+            "ar": "حجز طاولة – {party}"
+          }
+        }
+      },
+      "id": "t28dju",
+      "path": "randevu-formu",
+      "local": "body",
+      "data": [],
+      "index": 23
+    },
+    {
+      "name": "Önce / Sonra Karşılaştırma",
+      "description": "Önce/sonra karşılaştırma kaydırıcısı: klavye erişilebilir input[type=range] (aria-label üç dilli, RTL'de «önce» tarafı sağda), yatay/dikey yön, başlangıç konumu, çiftler arası gezinme, lightbox ile büyütme. mode:\"ilerleme\" ile inşaat/dönüşüm zaman şeridi (pairs sıralı tarih etiketli kareler; aynı kaydırıcı kareler arasında gezdirir, oynat düğmesi). pairs[{before,after,title{tr,en,ar},note{},date?}]. SAĞLIK sektöründe (klinik, diş, estetik, tedavi sonuçları) KULLANILMAZ: tıbbi önce/sonra görselleri mevzuat gereği yasaktır; güzellik (tıbbi olmayan), inşaat, dekorasyon ve yenileme işleri içindir. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "compare",
+      "category": "galeri",
+      "tags": [
+        "önce sonra",
+        "karşılaştırma",
+        "before after",
+        "ilerleme",
+        "dönüşüm",
+        "compare"
+      ],
+      "desing": {
+        "max": "960px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "radius": "16px",
+        "ratio": "4:3",
+        "mode": "karsilastir",
+        "orientation": "h",
+        "start": 50,
+        "lightbox": true,
+        "playMs": 1500,
+        "title": {
+          "tr": "Önce ve sonra",
+          "en": "Before and after",
+          "ar": "قبل وبعد"
+        },
+        "description": {
+          "tr": "Yalnızca saç ve tırnak bakımı örnekleri. Kaydırıcıyı sürükleyin ya da ok tuşlarını kullanın. Görseller kurgusaldır, kişi içermez.",
+          "en": "Hair and nail care examples only. Drag the slider or use the arrow keys. Images are fictional and show no identifiable person.",
+          "ar": "أمثلة على العناية بالشعر والأظافر فقط. اسحبي المؤشر أو استخدمي مفاتيح الأسهم. الصور افتراضية ولا تُظهر شخصًا يمكن التعرّف عليه."
+        },
+        "labels": {
+          "before": {
+            "tr": "Önce",
+            "en": "Before",
+            "ar": "قبل"
+          },
+          "after": {
+            "tr": "Sonra",
+            "en": "After",
+            "ar": "بعد"
+          }
+        },
+        "sliderLabel": {
+          "tr": "Önce ve sonra görsellerini karşılaştıran kaydırıcı",
+          "en": "Slider comparing the before and after images",
+          "ar": "مؤشر لمقارنة صورتَي قبل وبعد"
+        },
+        "valueText": {
+          "tr": "Önce görseli yüzde {v} oranında gösteriliyor",
+          "en": "The before image is shown at {v} percent",
+          "ar": "تُعرض صورة «قبل» بنسبة {v}%"
+        },
+        "progressLabel": {
+          "tr": "Zaman çizelgesi kaydırıcısı",
+          "en": "Timeline slider",
+          "ar": "مؤشر الخط الزمني"
+        },
+        "frameText": {
+          "tr": "{i} / {n}: {label}",
+          "en": "{i} / {n}: {label}",
+          "ar": "{i} من {n}: {label}"
+        },
+        "timelineLabel": {
+          "tr": "Zaman çizelgesi",
+          "en": "Timeline",
+          "ar": "الخط الزمني"
+        },
+        "counterText": {
+          "tr": "{i} / {n}",
+          "en": "{i} / {n}",
+          "ar": "{i} من {n}"
+        },
+        "prevLabel": {
+          "tr": "Önceki çift",
+          "en": "Previous pair",
+          "ar": "الزوج السابق"
+        },
+        "nextLabel": {
+          "tr": "Sonraki çift",
+          "en": "Next pair",
+          "ar": "الزوج التالي"
+        },
+        "playLabel": {
+          "tr": "Oynat",
+          "en": "Play",
+          "ar": "تشغيل"
+        },
+        "pauseLabel": {
+          "tr": "Duraklat",
+          "en": "Pause",
+          "ar": "إيقاف مؤقت"
+        },
+        "enlargeLabel": {
+          "tr": "Görselleri büyüt",
+          "en": "Enlarge images",
+          "ar": "تكبير الصور"
+        },
+        "emptyText": {
+          "tr": "Gösterilecek karşılaştırma yok.",
+          "en": "There is nothing to compare yet.",
+          "ar": "لا توجد مقارنات لعرضها."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "rizaAlindi": false,
+        "riza": {
+          "tr": "Yazılı açık rıza olmadan işlem görseli yayınlanmaz.",
+          "en": "Treatment images are not published without written explicit consent.",
+          "ar": "لا تُنشر صور الإجراءات دون موافقة خطية صريحة."
+        }
+      },
+      "data": [
+        {
+          "before": "guzellik-once-tirnak.webp",
+          "after": "guzellik-sonra-tirnak.webp",
+          "title": {
+            "tr": "Manikür",
+            "en": "Manicure",
+            "ar": "مانيكير"
+          },
+          "note": {
+            "tr": "Doğal tırnaktan jel bitişine.",
+            "en": "From natural nails to a gel finish.",
+            "ar": "من الأظافر الطبيعية إلى لمسة الجل."
+          }
+        },
+        {
+          "before": "guzellik-once-sac.webp",
+          "after": "guzellik-sonra-sac.webp",
+          "title": {
+            "tr": "Saç bakımı ve fön",
+            "en": "Hair care and blow-dry",
+            "ar": "عناية بالشعر وتصفيف"
+          },
+          "note": {
+            "tr": "Bakım kürü ve fön sonrası parlak, düzgün dalgalar.",
+            "en": "Shiny, smooth waves after a care treatment and blow-dry.",
+            "ar": "موجات ناعمة ولامعة بعد جلسة عناية وتجفيف."
+          }
+        }
+      ],
+      "id": "4gysmv",
+      "path": "onceki-sonra",
+      "local": "body",
+      "index": 24
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "local": "body",
+      "desing": {
+        "stil": "yuzen-gorsel",
+        "name": {
+          "tr": "Ön bilgilendirme",
+          "en": "Pre-visit information",
+          "ar": "معلومات قبل الزيارة"
+        },
+        "description": {
+          "tr": "Güvenli ve keyifli bir deneyim için randevudan önce aşağıdaki ön bilgilendirmeyi okuyun. Salonumuzda yalnızca estetik amaçlı bakım yapılır; bu sayfa tıbbi tavsiye değildir.",
+          "en": "For a safe and pleasant experience, please read the pre-visit information below before your appointment. We offer cosmetic care only; this page is not medical advice.",
+          "ar": "لتجربة آمنة وممتعة، يُرجى قراءة معلومات قبل الزيارة أدناه قبل موعدك. نقدّم عناية تجميلية فقط، وهذه الصفحة ليست نصيحة طبية."
+        },
+        "name2": {
+          "tr": "Hijyen",
+          "en": "Hygiene",
+          "ar": "النظافة"
+        },
+        "spot2": {
+          "tr": "Aletler her müşteriden sonra temizlenip sterilize edilir; tek kullanımlık malzemeler tercih edilir.",
+          "en": "Tools are cleaned and sterilised after every guest; single-use items are preferred.",
+          "ar": "تُنظَّف الأدوات وتُعقَّم بعد كل زائرة، ونفضّل المواد ذات الاستعمال الواحد."
+        },
+        "icon2": "sanitizer",
+        "name3": {
+          "tr": "Sorunuz varsa",
+          "en": "If you have questions",
+          "ar": "إذا كانت لديك أسئلة"
+        },
+        "spot3": {
+          "tr": "Randevu öncesi bize yazın ya da arayın; uygulamadan önce birlikte netleştirelim.",
+          "en": "Write or call us before you book; let’s clarify things together before the service.",
+          "ar": "راسلينا أو اتصلي بنا قبل الحجز لنوضّح الأمور معًا قبل الخدمة."
+        },
+        "icon3": "support_agent",
+        "img": "guzellik-hizmet-spa.webp",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Ön bilgilendirme",
+          "en": "Pre-visit information",
+          "ar": "معلومات قبل الزيارة"
+        }
+      },
+      "category": "module",
+      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (beyaz çerçeveli yuvarlak görsel, bugünkü görünüm) · \"yuzen-gorsel\" (dik kart görsel bandın dışına taşar, gölgeli, hafif eğik) · \"cerceve-ofset\" (kare görsel, arkasında kaymış primary renk çerçeve) · \"ikon-liste\" (yatay görsel + vizyon/misyon ikonlu madde listesi; ikon icon2/icon3). Bant zemini/yazısı bgcolor/fontcolor çifti kalır; eklenen renkler yalnız var(--mx-site-*) token.",
+      "version": "1.2.0",
+      "icon": "business",
+      "id": "tm23qr",
+      "path": "module-1",
+      "data": [],
+      "index": 25
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff",
+        "badge": {
+          "tr": "Randevudan önce",
+          "en": "Before you book",
+          "ar": "قبل الحجز"
+        },
+        "title": {
+          "tr": "Bilmeniz gerekenler",
+          "en": "What you should know",
+          "ar": "ما يجب أن تعرفيه"
+        },
+        "description": {
+          "tr": "Kısa bir ön bilgilendirme listesi.",
+          "en": "A short pre-visit checklist.",
+          "ar": "قائمة قصيرة بمعلومات قبل الزيارة."
+        }
+      },
+      "data": [
+        {
+          "icon": "warning",
+          "name": {
+            "tr": "Alerji bilgisi",
+            "en": "Allergy information",
+            "ar": "معلومات الحساسية"
+          },
+          "description": {
+            "tr": "Boya, oje, bakım ürünü ya da esansiyel yağlara karşı bilinen bir alerjiniz varsa randevu sırasında bildirin.",
+            "en": "If you have a known allergy to dyes, polish, care products or essential oils, tell us when you book.",
+            "ar": "إذا كانت لديك حساسية معروفة تجاه الصبغات أو الطلاء أو منتجات العناية أو الزيوت العطرية، فأخبرينا عند الحجز."
+          }
+        },
+        {
+          "icon": "science",
+          "name": {
+            "tr": "Cilt testi",
+            "en": "Patch test",
+            "ar": "اختبار البشرة"
+          },
+          "description": {
+            "tr": "Saç boyası ve bazı bakım ürünlerinde uygulamadan en az 48 saat önce küçük bir cilt testi yapılması önerilir.",
+            "en": "For hair colour and some care products, a small patch test at least 48 hours before the service is recommended.",
+            "ar": "يُنصح في الصبغات وبعض منتجات العناية بإجراء اختبار صغير للبشرة قبل الخدمة بـ 48 ساعة على الأقل."
+          }
+        },
+        {
+          "icon": "pregnant_woman",
+          "name": {
+            "tr": "Hamilelik ve emzirme",
+            "en": "Pregnancy and breastfeeding",
+            "ar": "الحمل والرضاعة"
+          },
+          "description": {
+            "tr": "Hamileyseniz ya da emziriyorsanız uzmanımıza önceden söyleyin; ürün ve masaj seçimini buna göre yaparız.",
+            "en": "If you are pregnant or breastfeeding, tell your specialist beforehand; we choose products and massage accordingly.",
+            "ar": "إذا كنتِ حاملًا أو مرضعًا فأخبري المختصة مسبقًا؛ نختار المنتجات والتدليك وفق ذلك."
+          }
+        },
+        {
+          "icon": "sentiment_sad",
+          "name": {
+            "tr": "Hassas ve irite cilt",
+            "en": "Sensitive or irritated skin",
+            "ar": "البشرة الحساسة أو المتهيجة"
+          },
+          "description": {
+            "tr": "Yara, tahriş ya da cilt hassasiyeti varsa ilgili bölgeye uygulama yapılmaz; randevunuzu değiştirmenizi isteyebiliriz.",
+            "en": "We do not treat areas with wounds, irritation or skin sensitivity; we may ask you to reschedule.",
+            "ar": "لا نجري الخدمة على مناطق فيها جروح أو تهيّج أو حساسية، وقد نطلب منك تغيير الموعد."
+          }
+        },
+        {
+          "icon": "child_care",
+          "name": {
+            "tr": "Yaş sınırı",
+            "en": "Age limit",
+            "ar": "الحد الأدنى للعمر"
+          },
+          "description": {
+            "tr": "16 yaşından küçükler için veli onayı ve eşlik gerekir.",
+            "en": "Guests under 16 need parental consent and must be accompanied.",
+            "ar": "يلزم موافقة ولي الأمر ومرافقته لمن هم دون 16 عامًا."
+          }
+        },
+        {
+          "icon": "event_busy",
+          "name": {
+            "tr": "İptal ve değişiklik",
+            "en": "Cancellations and changes",
+            "ar": "الإلغاء والتغيير"
+          },
+          "description": {
+            "tr": "Randevu değişikliği ya da iptali için en az 24 saat önce haber vermenizi rica ederiz.",
+            "en": "Please let us know at least 24 hours ahead if you need to change or cancel an appointment.",
+            "ar": "نرجو إبلاغنا قبل 24 ساعة على الأقل لتغيير الموعد أو إلغائه."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "r0kuqa",
+      "path": "values-1",
+      "local": "body",
+      "index": 26
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "local": "body",
+      "desing": {
+        "stil": "yuzen-gorsel",
+        "name": {
+          "tr": "Lila Studio",
+          "en": "Lila Studio",
+          "ar": "ليلا ستوديو"
+        },
+        "description": {
+          "tr": "Lila Studio, Gaziantep’te yer alan kurgusal bir demo güzellik salonudur. Saç, tırnak, cilt bakımı, makyaj ve masaj hizmetlerini canlı ama sakin bir ortamda, hijyen ve açık bilgilendirme ilkesiyle sunar. Tıbbi işlem yapılmaz.",
+          "en": "Lila Studio is a fictional demo beauty salon in Gaziantep. It offers hair, nail, skin care, make-up and massage services in a lively yet calm setting, with hygiene and clear information as its principles. No medical procedures are performed.",
+          "ar": "ليلا ستوديو صالون تجميل تجريبي افتراضي في غازي عنتاب. يقدّم خدمات الشعر والأظافر والعناية بالبشرة والمكياج والتدليك في أجواء حيوية وهادئة مع التزام بالنظافة والمعلومات الواضحة. لا تُجرى أي إجراءات طبية."
+        },
+        "name2": {
+          "tr": "Hijyen",
+          "en": "Hygiene",
+          "ar": "النظافة"
+        },
+        "spot2": {
+          "tr": "Aletler her müşteriden sonra temizlenip sterilize edilir.",
+          "en": "Tools are cleaned and sterilised after every guest.",
+          "ar": "تُنظَّف الأدوات وتُعقَّم بعد كل زائرة."
+        },
+        "icon2": "sanitizer",
+        "name3": {
+          "tr": "Açık bilgi",
+          "en": "Clear information",
+          "ar": "معلومات واضحة"
+        },
+        "spot3": {
+          "tr": "Fiyatlar nihai, ön bilgilendirme herkese açık.",
+          "en": "Prices are final and the pre-visit information is open to everyone.",
+          "ar": "الأسعار نهائية ومعلومات قبل الزيارة متاحة للجميع."
+        },
+        "icon3": "fact_check",
+        "img": "guzellik-hero-salon.webp",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        }
+      },
+      "category": "module",
+      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (beyaz çerçeveli yuvarlak görsel, bugünkü görünüm) · \"yuzen-gorsel\" (dik kart görsel bandın dışına taşar, gölgeli, hafif eğik) · \"cerceve-ofset\" (kare görsel, arkasında kaymış primary renk çerçeve) · \"ikon-liste\" (yatay görsel + vizyon/misyon ikonlu madde listesi; ikon icon2/icon3). Bant zemini/yazısı bgcolor/fontcolor çifti kalır; eklenen renkler yalnız var(--mx-site-*) token.",
+      "version": "1.2.0",
+      "icon": "business",
+      "id": "enpx55",
+      "path": "module-1",
+      "data": [],
+      "index": 27
+    },
+    {
+      "name": "Footer 1",
+      "desing": {
+        "stil": "ortali-sade",
+        "showlang": true,
+        "bgcolor": "#1E1B2E",
+        "color": "#EEE9F8",
+        "img": "",
+        "imgwidth": "250px",
+        "mutedcolor": "color-mix(in srgb, #EEE9F8 76%, transparent)",
+        "accent": "#B794F6",
+        "bordercolor": "color-mix(in srgb, #EEE9F8 22%, transparent)",
+        "maxpages": 8,
+        "address": {
+          "tr": "Ordu Caddesi No: 5, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "5 Ordu Avenue, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع أوردو رقم 5، شاهين بي، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "merhaba@lilastudio.example",
+        "social": [],
+        "legal": [
+          {
+            "text": {
+              "tr": "KVKK",
+              "en": "Privacy (KVKK)",
+              "ar": "حماية البيانات"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "text": {
+              "tr": "Gizlilik",
+              "en": "Privacy policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "text": {
+              "tr": "Yasal uyarı",
+              "en": "Legal notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "about": {
+          "tr": "Saç, tırnak, cilt bakımı, makyaj ve masaj; yalnızca estetik amaçlı bakım. Kurgusal demo salon.",
+          "en": "Hair, nails, skin care, make-up and massage; cosmetic care only. Fictional demo salon.",
+          "ar": "شعر وأظافر وعناية بالبشرة ومكياج وتدليك؛ عناية تجميلية فقط. صالون تجريبي افتراضي."
+        },
+        "showsocial": true,
+        "langcolor": ""
+      },
+      "category": "footer",
+      "data": [],
+      "description": "Evrensel alt bilgi (footer) bölüm modülü. Firma logosu, telif hakları metni, iletişim bilgileri ve sosyal medya ikonlarını responsive tasarımda sunar. 41 farklı projede kullanılır: tüm sektörlerden kurumsal, e-ticaret, restoran, sağlık, ajans, hizmet firmalarında. Tüm sayfa türlerinde standart footer yapısı sağlar. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (dalgalı üst kenar, ortalı yığın, bugünkü görünüm) · \"cizgili\" (üç sütun: sosyal | sayfalar | dil, ince dikey ayraçlar, telif alt şeritte) · \"ortali-sade\" (dalga yok, tek sütun ortalı, büyük daire çerçeveli sosyal ikonlar, nokta ayraçlı menü). Ayraç/çerçeve renkleri color anahtarının color-mix türevi.",
+      "version": "1.1.0",
+      "icon": "web_asset",
+      "id": "2fkx2p",
+      "path": "footer-1",
+      "local": "footer",
+      "index": 28
+    }
+  ]
+}

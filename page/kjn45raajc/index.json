@@ -1,0 +1,40 @@
+{
+  "id": "kjn45raajc",
+  "name": {
+    "tr": "Ekibimiz",
+    "en": "Our team",
+    "ar": "فريقنا"
+  },
+  "description": {
+    "tr": "Uzman ekibimizle tanışın.",
+    "en": "Meet our specialists.",
+    "ar": "تعرّفي على مختصاتنا."
+  },
+  "keyword": {
+    "tr": "ekip, uzman, stilist",
+    "en": "team, specialists, stylist",
+    "ar": "فريق، مختصات، مصففة"
+  },
+  "path": "ekibimiz",
+  "icon": "groups",
+  "category": "hakkimizda",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "jjfoqj",
+      "nbrkrv"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ekibimiz",
+    "en": "Our team",
+    "ar": "فريقنا"
+  },
+  "date": "2026-10-31T14:44:27.923Z",
+  "update": "2026-11-05T22:24:54.339Z"
+}
