@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Lila Studio: saç, tırnak, cilt bakımı, makyaj ve masaj; KDV dahil fiyat listesi, uzman ve saat seçmeli online randevu, ön bilgilendirme. Yalnızca estetik amaçlı bakım. (Demo site)",
+    "en": "Lila Studio: hair, nails, skin care, make-up and massage; a price list incl. VAT, online booking by specialist and time, pre-visit information. Cosmetic care only. (Demo site)",
+    "ar": "ليلا ستوديو: شعر وأظافر وعناية بالبشرة ومكياج وتدليك، مع قائمة أسعار شاملة الضريبة وحجز عبر الإنترنت ومعلومات قبل الزيارة. عناية تجميلية فقط. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "güzellik salonu, saç, tırnak, makyaj, randevu, fiyat listesi",
+    "en": "beauty salon, hair, nails, make-up, appointment, price list",
+    "ar": "صالون تجميل، شعر، أظافر، مكياج، موعد، قائمة أسعار"
+  },
+  "category": "Galeri",
+  "name": "Lila Studio",
+  "domain": "guzellik-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "open-sans",
+    "heading": "poppins",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#6D28D9",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "7px",
+    "--mx-radius-md": "12px",
+    "--mx-radius-lg": "17px",
+    "--mx-radius-xl": "23px"
+  },
+  "icon": "icon.png"
+}

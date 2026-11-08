@@ -1,0 +1,39 @@
+{
+  "id": "4cdzsyrzu6",
+  "name": {
+    "tr": "Online randevu",
+    "en": "Online booking",
+    "ar": "الحجز عبر الإنترنت"
+  },
+  "description": {
+    "tr": "Hizmet, uzman, gün ve saat seçerek online randevu (demo).",
+    "en": "Book online by choosing service, specialist, day and time (demo).",
+    "ar": "احجزي عبر الإنترنت باختيار الخدمة والمختصة واليوم والوقت (تجريبي)."
+  },
+  "keyword": {
+    "tr": "randevu, online randevu",
+    "en": "appointment, online booking",
+    "ar": "موعد، حجز عبر الإنترنت"
+  },
+  "path": "online-randevu",
+  "icon": "event",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "t28dju"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Online randevu",
+    "en": "Online booking",
+    "ar": "الحجز عبر الإنترنت"
+  },
+  "date": "2026-10-31T14:44:27.940Z",
+  "update": "2026-11-05T22:24:54.344Z"
+}

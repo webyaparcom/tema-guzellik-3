@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "id": "11l2pxhybc",
+      "name": {
+        "tr": "Hizmetler",
+        "en": "Services",
+        "ar": "الخدمات"
+      },
+      "description": {
+        "tr": "Saç, tırnak, cilt bakımı, makyaj ve masaj hizmetleri.",
+        "en": "Hair, nail, skin care, make-up and massage services.",
+        "ar": "خدمات الشعر والأظافر والعناية بالبشرة والمكياج والتدليك."
+      },
+      "path": "hizmetler",
+      "icon": "spa",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "wjflg4",
+          "dc9pfh"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "vb8sj2na2s",
+      "name": {
+        "tr": "Fiyat listesi",
+        "en": "Price list",
+        "ar": "قائمة الأسعار"
+      },
+      "description": {
+        "tr": "Hizmetlerin süre ve nihai fiyatları.",
+        "en": "Durations and final prices of our services.",
+        "ar": "مدد الخدمات وأسعارها النهائية."
+      },
+      "path": "fiyat-listesi",
+      "icon": "sell",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "mlwjsf"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "5823ovrd2o",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Salondan ve bakım anlarından fotoğraflar (kurgusal).",
+        "en": "Photos from the salon and care moments (fictional).",
+        "ar": "صور من الصالون ولحظات العناية (افتراضية)."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "q2oe3f"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "4cdzsyrzu6",
+      "name": {
+        "tr": "Online randevu",
+        "en": "Online booking",
+        "ar": "الحجز عبر الإنترنت"
+      },
+      "description": {
+        "tr": "Hizmet, uzman, gün ve saat seçerek online randevu (demo).",
+        "en": "Book online by choosing service, specialist, day and time (demo).",
+        "ar": "احجزي عبر الإنترنت باختيار الخدمة والمختصة واليوم والوقت (تجريبي)."
+      },
+      "path": "online-randevu",
+      "icon": "event",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "t28dju"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 4,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "enpx55",
+          "evdlnd"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Lila Studio hakkında.",
+        "en": "About Lila Studio.",
+        "ar": "عن ليلا ستوديو."
+      }
+    },
+    {
+      "id": "kjn45raajc",
+      "name": {
+        "tr": "Ekibimiz",
+        "en": "Our team",
+        "ar": "فريقنا"
+      },
+      "description": {
+        "tr": "Uzman ekibimizle tanışın.",
+        "en": "Meet our specialists.",
+        "ar": "تعرّفي على مختصاتنا."
+      },
+      "path": "ekibimiz",
+      "icon": "groups",
+      "category": "hakkimizda",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "jjfoqj",
+          "nbrkrv"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "l7nq8p",
+          "g3mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}
